@@ -1,0 +1,14 @@
+#menu
+  %span{:id => 'gostaberling'}
+    %a{:href => '/'}
+      %img{:src => '/images/logo.png'}
+
+  - %w(music info pics shop).each do |i|
+    - unless currently_selected(i)
+      %span{:id => i}
+        %a{:href => ("/#{i}")}
+          %img{:class => 'unselected', :src => "/images/nav-#{i}-black.png"}
+    - else
+      %span{:id => i}
+        %img{:class => 'selected', :src => "/images/nav-#{i}-brown.png"}
+    

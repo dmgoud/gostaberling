@@ -1,0 +1,16 @@
+---
+defaults:
+  install_options: --include-dependencies --no-rdoc
+gems:
+- name: geminstaller
+  version: 0.5.1
+- name: hoe
+  version: 1.11.0
+- name: passenger
+  version: 2.2.2
+- name: rack
+  version: 1.0.0
+- name: rails
+  version: 2.3.2
+- name: rake
+  version: 0.8.4
