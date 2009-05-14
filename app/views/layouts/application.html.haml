@@ -3,20 +3,21 @@
   %head
     %title Gosta Berling
     %meta{ :content => 'text/html; charset=utf-8', 'http-equiv' => "content-type" }
-    = css_include_tag :thickbox, :application, :menu, :popup, controller_name
-    = js_include_tag 'jquery-1.2.3'
-    = js_include_tag 'jquery.form'
-    = js_include_tag 'jquery.livequery'
-    = js_include_tag 'jquery.flydom-3.1.1'
-    = js_include_tag 'thickbox'
-    = js_include_tag 'swfobject'
-    = js_include_tag '1bit'
-    = js_include_tag 'common'
-    = js_include_tag controller_name
+    = stylesheet_link_tag 'thickbox', 'application', 'menu', 'popup', controller_name, :media => "all"
+
+    = javascript_include_tag 'jquery-1.2.3'
+    = javascript_include_tag 'jquery.form'
+    = javascript_include_tag 'jquery.livequery'
+    = javascript_include_tag 'jquery.flydom-3.1.1'
+    = javascript_include_tag 'thickbox'
+    = javascript_include_tag 'swfobject'
+    = javascript_include_tag '1bit'
+    = javascript_include_tag 'common'
+    = javascript_include_tag controller_name
 
     %link{:rel => 'shortcut icon', :href => '/images/favicon.ico'}
   %body
     #page
-      = catch_content :for_layout
+      = yield
       #popup
-    =partial('common/urchin')
+    = render :partial => 'common/urchin'
