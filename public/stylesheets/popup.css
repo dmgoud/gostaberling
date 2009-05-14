@@ -1,0 +1,74 @@
+#popup {
+  display: none;
+}
+
+embed.tune {
+  margin-top: 1em;
+  width: 30em;
+  height: 3em;
+}
+
+body.popup {
+  background: #blue url() no-repeat;
+}
+
+h3.heading {
+  color: black;
+}
+
+h3.center {
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+hr.separator {
+  color: rgb(112,128,144);
+  width: 100%;
+  margin: 2px 0 10px 0;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.member {
+  color: black;
+}
+
+p.member a {
+  color: gray;
+}
+
+img.spinner {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+p#address {
+  margin-top: -.6em;
+}
+
+p#submit {
+  margin-top: -.3em;
+}
+
+
+#TB_closeAjaxWindow {
+  float: right;
+  margin-bottom: 1px;
+  padding: 7px 10px 5px 0;
+  text-align: right;
+}
+
+#TB_ajaxContent, #TB_window {
+  background: white;
+  padding: 10px 15px 0 15px;
+}
+
+#TB_window a:link {
+  color: gray;
+}

@@ -1,0 +1,14 @@
+div#news {
+  margin: 9em 0 0 0;
+  padding: 0 2em 0 0;
+}
+
+img#flyer {
+  margin: 8em 0 0 1em;
+  width: 120%;
+  height: 120%;
+}
+
+#news p {
+  margin-top: 1em;
+}

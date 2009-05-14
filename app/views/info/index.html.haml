@@ -1,0 +1,41 @@
+#header
+  = render :partial => 'common/menu'
+
+#container
+  #left.column
+    %a{:href => '/'}
+      %img#bed{:src => '/images/bed1.png'}
+  #middle.column
+    #blurb
+      %p Blending the tradition of topical, lyric-oriented |
+         songwriting with indie guitar rock.  Hints of 80s | 
+         college radio and 60s british invasion |
+         sounds. |
+      %p.line
+        %i sign up for the 
+        %a{:id => 'signup'} email notification list
+      %p.line
+        %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
+      %p.line
+        %a{:href => 'http://www.youtube.com/user/gostaberling'} youtube.com/user/gostaberling
+      %p.line
+        %a{:href => 'http://www.imeem.com/gostaberling'} imeem.com/gostaberling
+      %p.line
+        %i email: 
+        theband [at] gostaberling DOT com
+      %p.line
+        %i booking: 
+        tipsytinkerbell [at] yahoo DOT com
+
+  #right.column
+    %img#band{:src => '/images/photo-band-info.png'}
+  
+#footer
+  #portraits
+    - %w(damon carter david greg).each do |dude|
+      .portrait
+        %a{:id => dude, :href => '#'}
+          %img{:class => 'portrait', :src => "/images/portrait-#{dude}-small.png"}
+        %p.caption
+          %a{:href => '#'}= dude
+  

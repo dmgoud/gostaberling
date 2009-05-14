@@ -1,0 +1,54 @@
+#header
+  = render :partial => 'common/menu'
+
+#container
+  #left.column
+    %a{:href => '/'}
+      %img#bed{:src => '/images/bed1.png'}
+  #middle.column
+    %br/
+    %br/
+    %br/
+    From the EP
+    %br/
+    %i Everybody's Sweetheart:
+    %br/
+    %br/
+    %ul.eptracks
+      %li
+        %a{:id => 'ziegfeld', :href => '#'} Ziegfeld Girl
+      %li
+        %a{:id => 'garden', :href => '#'} The Garden of Allah
+      %li
+        %a{:id => 'rebecca', :href => '#'} Rebecca
+      %li
+        %a{:id => 'these_days', :href => '#'} These Days
+      %li
+        %a{:id => 'berlin', :href => '#'} Berlin
+
+    %br/
+    %br/
+    Demos
+    %br/
+    %br/
+
+    %ul.demos
+      %li
+        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/lili%20marlene%2020070520.mp3'} Lili Marlene (2007)
+      %li
+        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/baby%20jane.mp3'} Baby Jane (2006)
+      %li
+        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/so%20lonely.mp3'} So Lonely (2005)
+      %li
+        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/diplomacy.mp3'} Diplomacy (2005)
+      %li
+        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/little%20garbo%20demo.mp3'} Little Garbo (2005)
+
+
+  #right.column
+    %img#ep{:src => '/images/gosta_sweetheart_sm.gif'}
+    %p#buy_ep
+      %b= link_to 'buy the ep', 'shop', :id => 'buy_the_ep'
+  
+#footer
+  - 

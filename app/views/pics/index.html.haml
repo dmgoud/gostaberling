@@ -1,0 +1,29 @@
+#header
+  = render :partial => 'common/menu'
+
+#container
+  #left.column
+    %a{:href => '/'}
+      %img#bed{:src => '/images/bed1.png'}
+  #middle.column
+    #blurb
+      %img.peel{:src => '/images/peel-slowly.png'}
+
+  #right.column
+    / %img#band{:src => '/images/pics-photo1-small.png'}
+    %a.photo{:id => "photo1"}
+      %img{:class => 'band', :src => "/images/pics-photo1-small.png"}
+  
+#footer
+  #bandshots
+    - %w(photo2 photo3 photo4).each do |photo|
+      %a.photo{:id => "#{photo}"}
+        %img{:class => 'band', :src => "/images/pics-#{photo}-small.png"}
+    #clearboth
+    - %w(flyer4 flyer5 flyer6).each do |flyer|
+      %a.photo{:id => "#{flyer}"}
+        %img{:class => 'flyer', :src => "/images/pics-#{flyer}-small.png"}
+    #clearboth
+    - %w(flyer1 flyer2 flyer3).each do |flyer|
+      %a.photo{:id => "#{flyer}"}
+        %img{:class => 'flyer', :src => "/images/pics-#{flyer}-small.png"}
