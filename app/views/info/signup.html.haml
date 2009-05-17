@@ -4,17 +4,3 @@
   %p= text_field_tag 'email', '', :size => 30, :id => 'address'
   %p= submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox'
 
-:javascript
-  $("#form_signup").ajaxForm({
-    dataType: 'script',
-    beforeSend: function(xhr) {
-        alert('sending');
-        xhr.setRequestHeader("Accept", "text/javascript");
-        $("#TB_ajaxContent").empty().createAppend('img', { className: 'spinner', src: '/images/ajax-loader.gif' });
-      },
-    success: function(data) {
-            alert('success');
-
-        $("#TB_ajaxContent").html(data);
-        }
-  });
