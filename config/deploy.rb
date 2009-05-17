@@ -15,6 +15,7 @@ end
 # load 'common'
 
 after "deploy:update_code", "deploy:geminstaller"
+before "deploy:migrate", "deploy:web:disable"
 after "deploy:migrate", "deploy:web:enable"
 after "deploy:migrate", "deploy:cleanup"
 
