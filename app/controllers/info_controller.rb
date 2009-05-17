@@ -24,12 +24,8 @@ class InfoController < ApplicationController
   end
   
   def signingup
-    send_mail(SignupMailer, :notify, {
-      :from => "admin@gostaberling.com",
-      :to => THEBAND,
-      :subject => "New subscriber notification!"
-    }, { :email => params[:email] })
-    render
+    Notifier.deliver_notification(params[:email])
+    render :text => 'Email has been sent'
   end
   
 end

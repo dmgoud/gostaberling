@@ -1,6 +1,6 @@
 %h3.heading signup
 %hr.separator
-- form_remote_tag(:action => '/info/signingup', :id => 'form_signup') do
+- form_remote_tag :url => '/info/signingup', :html => { :id => 'form_signup' } do
   %p= text_field_tag 'email', '', :size => 30, :id => 'address'
   %p= submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox'
 

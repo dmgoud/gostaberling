@@ -18,5 +18,5 @@ gems:
   version: 0.8.4
 - name: rake
   version: 0.8.4
-- name: ambethia-smtp-tls
-  version: 1.1.2
+- name: openrain-action_mailer_tls
+  version: 1.1.3
