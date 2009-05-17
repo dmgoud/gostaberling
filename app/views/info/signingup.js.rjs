@@ -1,0 +1,1 @@
+page.replace_html "TB_ajaxContent", "<h3 class=\'center\'>Youve been subscribed!</h3>"

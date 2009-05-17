@@ -3262,3 +3262,1034 @@ Content-Type: text/plain; charset=utf-8
 New subscriber to your rock'n'roll fantasy:
 r@d.com
 Completed in 4239ms (View: 1, DB: 0) | 200 OK [http://localhost/info/signingup]
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:05:26) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:09:45) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242587385735", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 12ms (View: 3, DB: 0) | 200 OK [http://localhost/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242587385735]
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:12:30) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:12:46) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.7ms)
+Rendered common/_urchin (0.1ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:12:50) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242587570073", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242587570073]
+
+
+Processing InfoController#signingup (for 127.0.0.1 at 2009-05-17 12:12:54) [POST]
+  Parameters: {"authenticity_token"=>"uhWCRpNzfHKWdKWVx85dra9LO5aTLqGVDM/mdN7ZWtw=", "email"=>"f@sdf.com"}
+Sent mail to dmgoud@gmail.com
+
+From: admin@gostaberling.com
+To: dmgoud@gmail.com
+Subject: New subscriber notification! - 05.17.09 at 12:12PM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+New subscriber to your rock'n'roll fantasy:
+f@sdf.com
+Completed in 3766ms (View: 1, DB: 0) | 200 OK [http://localhost/info/signingup]
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:13:43) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.7ms)
+Rendered common/_urchin (0.1ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:13:45) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242587625522", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242587625522]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:13:52) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242587632634", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242587632634]
+
+
+Processing InfoController#signingup (for 127.0.0.1 at 2009-05-17 12:14:02) [POST]
+  Parameters: {"authenticity_token"=>"uhWCRpNzfHKWdKWVx85dra9LO5aTLqGVDM/mdN7ZWtw=", "email"=>"asf@asdf.com"}
+Sent mail to dmgoud@gmail.com
+
+From: admin@gostaberling.com
+To: dmgoud@gmail.com
+Subject: New subscriber notification! - 05.17.09 at 12:14PM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+New subscriber to your rock'n'roll fantasy:
+asf@asdf.com
+Completed in 2541ms (View: 1, DB: 0) | 200 OK [http://localhost/info/signingup]
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:15:22) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:15:24) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242587724793", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242587724793]
+
+
+Processing InfoController#signingup (for 127.0.0.1 at 2009-05-17 12:15:28) [POST]
+  Parameters: {"authenticity_token"=>"uhWCRpNzfHKWdKWVx85dra9LO5aTLqGVDM/mdN7ZWtw=", "email"=>"asdfa@afsdfs.com"}
+Sent mail to dmgoud@gmail.com
+
+From: admin@gostaberling.com
+To: dmgoud@gmail.com
+Subject: New subscriber notification! - 05.17.09 at 12:15PM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+New subscriber to your rock'n'roll fantasy:
+asdfa@afsdfs.com
+Rendering info/signingup
+ERROR: compiling _run_rjs_app47views47info47signingup46js46rjs RAISED compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1: syntax error, unexpected tIDENTIFIER, expecting kEND
+...axContent’, "<h3 class='center'>You've been subscribed!</h3>...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1: syntax error, unexpected tIDENTIFIER, expecting kEND
+...t’, "<h3 class='center'>You've been subscribed!</h3>" 
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1: unterminated string meets end of file
+/Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR
+Function body:           def _run_rjs_app47views47info47signingup46js46rjs(local_assigns)
+            old_output_buffer = output_buffer;;@template_format = :html;controller.response.content_type ||= Mime::JS;update_page do |page|;page.replace 'TB_ajaxContent’, "<h3 class='center'>You've been subscribed!</h3>" 
+end
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/david/dev/workspace/gostaberling/script/server:3
+-e:1:in `load'
+-e:1
+
+ActionView::TemplateError (compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1: syntax error, unexpected tIDENTIFIER, expecting kEND
+...axContent’, "<h3 class='center'>You've been subscribed!</h3>...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1: syntax error, unexpected tIDENTIFIER, expecting kEND
+...t’, "<h3 class='center'>You've been subscribed!</h3>" 
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1: unterminated string meets end of file
+/Users/david/dev/workspace/gostaberling/app/views/info/signingup.js.rjs:1: syntax error, unexpected tSTRING_END, expecting tSTRING_CONTENT or tREGEXP_END or tSTRING_DBEG or tSTRING_DVAR) on line #1 of app/views/info/signingup.js.rjs:
+1: page.replace 'TB_ajaxContent’, "<h3 class='center'>You've been subscribed!</h3>" 
+
+    app/views/info/signingup.js.rjs:1:in `compile!'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    -e:1:in `load'
+    -e:1
+
+Rendered rescues/_trace (37.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:17:42) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:17:44) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242587864317", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242587864317]
+
+
+Processing InfoController#signingup (for 127.0.0.1 at 2009-05-17 12:17:49) [POST]
+  Parameters: {"authenticity_token"=>"uhWCRpNzfHKWdKWVx85dra9LO5aTLqGVDM/mdN7ZWtw=", "email"=>"asdf@asdf.com"}
+Sent mail to dmgoud@gmail.com
+
+From: admin@gostaberling.com
+To: dmgoud@gmail.com
+Subject: New subscriber notification! - 05.17.09 at 12:17PM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+New subscriber to your rock'n'roll fantasy:
+asdf@asdf.com
+Rendering info/signingup
+Completed in 5982ms (View: 3, DB: 0) | 200 OK [http://localhost/info/signingup]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:18:21) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242587901804", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242587901804]
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:21:01) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.5ms)
+Rendered common/_urchin (0.1ms)
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:21:03) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588063372", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+ERROR: compiling _run_haml_app47views47info47signup46html46haml RAISED compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected tIDENTIFIER, expecting kEND
+...nt").empty().createAppend('img', { className: 'spinner', src...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected tIDENTIFIER, expecting kEND
+...d('img', { className: 'spinner', src: '/images/ajax-loader.g...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected tSTRING_BEG, expecting kEND
+...src: '/images/ajax-loader.gif' }) do;
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting kEND
+...l_temp = text_field_tag 'email', '', :size => 30, :id => 'ad...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting kEND
+..., :size => 30, :id => 'address';
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: syntax error, unexpected tCONSTANT, expecting kEND
+...l_temp = submit_tag 'Subscribe', :id => 'submit_button', :cl...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting kEND
+...scribe', :id => 'submit_button', :class => 'thickbox';
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting kEND
+...t_button', :class => 'thickbox';
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: unterminated string meets end of file
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_haml_app47views47info47signup46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:xhtml, :ugly=>false, :preserve=>["textarea", "pre"], :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h3 class='heading'>signup</h3>\n<hr class='separator' />\n"); form_remote_tag :url => '/info/signingup', :html => { :id => 'form_signup' }, :loading => '$("#TB_ajaxContent").empty().createAppend('img', { className: 'spinner', src: '/images/ajax-loader.gif' }) do;
+_hamlout.push_text("<p>", false, 1);haml_temp = text_field_tag 'email', '', :size => 30, :id => 'address';
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</p>\n<p>", true, 1);haml_temp = submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox';
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</p>\n", true);end;
+@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:978:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/david/dev/workspace/gostaberling/app/controllers/info_controller.rb:23:in `signup'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/david/dev/workspace/gostaberling/script/server:3
+-e:1:in `load'
+-e:1
+
+ActionView::TemplateError (compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected tIDENTIFIER, expecting kEND
+...nt").empty().createAppend('img', { className: 'spinner', src...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected tIDENTIFIER, expecting kEND
+...d('img', { className: 'spinner', src: '/images/ajax-loader.g...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected tSTRING_BEG, expecting kEND
+...src: '/images/ajax-loader.gif' }) do;
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting kEND
+...l_temp = text_field_tag 'email', '', :size => 30, :id => 'ad...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:4: syntax error, unexpected tIDENTIFIER, expecting kEND
+..., :size => 30, :id => 'address';
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: syntax error, unexpected tCONSTANT, expecting kEND
+...l_temp = submit_tag 'Subscribe', :id => 'submit_button', :cl...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting kEND
+...scribe', :id => 'submit_button', :class => 'thickbox';
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: syntax error, unexpected tIDENTIFIER, expecting kEND
+...t_button', :class => 'thickbox';
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: unterminated string meets end of file
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:5: syntax error, unexpected $end, expecting kEND) on line #3 of app/views/info/signup.html.haml:
+1: %h3.heading signup
+2: %hr.separator
+3: - form_remote_tag :url => '/info/signingup', :html => { :id => 'form_signup' }, :loading => '$("#TB_ajaxContent").empty().createAppend('img', { className: 'spinner', src: '/images/ajax-loader.gif' }) do
+4:   %p= text_field_tag 'email', '', :size => 30, :id => 'address'
+5:   %p= submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox'
+
+    app/views/info/signup.html.haml:5:in `compile!'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/info_controller.rb:23:in `signup'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    -e:1:in `load'
+    -e:1
+
+Rendered rescues/_trace (38.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:24:28) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:24:30) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588270538", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242588270538]
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:26:27) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 118ms (View: 11, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#index (for 127.0.0.1 at 2009-05-17 12:29:46) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.5ms)
+Rendered common/_urchin (0.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/info]
+
+
+Processing InfoController#signup (for 127.0.0.1 at 2009-05-17 12:29:48) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588588940", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+ERROR: compiling _run_haml_app47views47info47signup46html46haml RAISED compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected ')', expecting kEND
+...ent').removeClass('spinner')"), :html => { :id => 'form_sign...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected kDO, expecting kEND
+...=> { :id => 'form_signup' } do;
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47info47signup46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:xhtml, :ugly=>false, :preserve=>["textarea", "pre"], :attr_wrapper=>"'"});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h3 class='heading'>signup</h3>\n<hr class='separator' />\n"); form_remote_tag :url => '/info/signingup', :loading => "$('#TB_ajaxContent').addClass('spinner')", :complete => "('#TB_ajaxContent').removeClass('spinner')"), :html => { :id => 'form_signup' } do;
+_hamlout.push_text("<p>", false, 1);haml_temp = text_field_tag 'email', '', :size => 30, :id => 'address';
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</p>\n<p>", true, 1);haml_temp = submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox';
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</p>\n", true);end;
+@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:978:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/david/dev/workspace/gostaberling/app/controllers/info_controller.rb:23:in `signup'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/opt/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+/Users/david/dev/workspace/gostaberling/script/server:3
+-e:1:in `load'
+-e:1
+
+ActionView::TemplateError (compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected ')', expecting kEND
+...ent').removeClass('spinner')"), :html => { :id => 'form_sign...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected kDO, expecting kEND
+...=> { :id => 'form_signup' } do;
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8: syntax error, unexpected kENSURE, expecting $end) on line #3 of app/views/info/signup.html.haml:
+1: %h3.heading signup
+2: %hr.separator
+3: - form_remote_tag :url => '/info/signingup', :loading => "$('#TB_ajaxContent').addClass('spinner')", :complete => "('#TB_ajaxContent').removeClass('spinner')"), :html => { :id => 'form_signup' } do
+4:   %p= text_field_tag 'email', '', :size => 30, :id => 'address'
+5:   %p= submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox'
+
+    app/views/info/signup.html.haml:8:in `compile!'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/info_controller.rb:23:in `signup'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    -e:1:in `load'
+    -e:1
+
+Rendered rescues/_trace (50.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InfoController#index (for ::1 at 2009-05-17 12:30:13) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (2.0ms)
+Rendered common/_urchin (0.8ms)
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://test.gb/info]
+
+
+Processing InfoController#signup (for ::1 at 2009-05-17 12:30:22) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588622452", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+ERROR: compiling _run_haml_app47views47info47signup46html46haml RAISED compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected ')', expecting kEND
+...ent').removeClass('spinner')"), :html => { :id => 'form_sign...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected kDO, expecting kEND
+...=> { :id => 'form_signup' } do;
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47info47signup46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h3 class='heading'>signup</h3>\n<hr class='separator' />\n"); form_remote_tag :url => '/info/signingup', :loading => "$('#TB_ajaxContent').addClass('spinner')", :complete => "('#TB_ajaxContent').removeClass('spinner')"), :html => { :id => 'form_signup' } do;
+_hamlout.push_text("<p>", false, 1);haml_temp = text_field_tag 'email', '', :size => 30, :id => 'address';
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</p>\n<p>", true, 1);haml_temp = submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox';
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</p>\n", true);end;
+@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:978:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/david/dev/workspace/gostaberling/app/controllers/info_controller.rb:23:in `signup'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/rack/request_handler.rb:81:in `process_request'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_request_handler.rb:203:in `main_loop'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/utils.rb:181:in `safe_fork'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:337:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:337:in `main_loop'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:187:in `start_synchronously'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:154:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:257:in `spawn_rails_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:251:in `spawn_rails_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:250:in `spawn_rails_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:282:in `handle_spawn_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:337:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:337:in `main_loop'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:187:in `start_synchronously'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/bin/passenger-spawn-server:61
+
+ActionView::TemplateError (compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected ')', expecting kEND
+...ent').removeClass('spinner')"), :html => { :id => 'form_sign...
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:3: syntax error, unexpected kDO, expecting kEND
+...=> { :id => 'form_signup' } do;
+                              ^
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8: syntax error, unexpected kENSURE, expecting $end) on line #3 of app/views/info/signup.html.haml:
+1: %h3.heading signup
+2: %hr.separator
+3: - form_remote_tag :url => '/info/signingup', :loading => "$('#TB_ajaxContent').addClass('spinner')", :complete => "('#TB_ajaxContent').removeClass('spinner')"), :html => { :id => 'form_signup' } do
+4:   %p= text_field_tag 'email', '', :size => 30, :id => 'address'
+5:   %p= submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox'
+
+    app/views/info/signup.html.haml:8:in `compile!'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/info_controller.rb:23:in `signup'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.2) lib/phusion_passenger/rack/request_handler.rb:81:in `process_request'
+    passenger (2.2.2) lib/phusion_passenger/abstract_request_handler.rb:203:in `main_loop'
+    passenger (2.2.2) lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+    passenger (2.2.2) lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+    passenger (2.2.2) lib/phusion_passenger/utils.rb:181:in `safe_fork'
+    passenger (2.2.2) lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:337:in `__send__'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:337:in `main_loop'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:187:in `start_synchronously'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:154:in `start'
+    passenger (2.2.2) lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:257:in `spawn_rails_application'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:251:in `spawn_rails_application'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:250:in `spawn_rails_application'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:282:in `handle_spawn_application'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:337:in `__send__'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:337:in `main_loop'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:187:in `start_synchronously'
+
+Rendered rescues/_trace (73.9ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InfoController#index (for ::1 at 2009-05-17 12:30:55) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.7ms)
+Rendered common/_urchin (0.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://test.gb/info]
+
+
+Processing InfoController#signup (for ::1 at 2009-05-17 12:30:57) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588657118", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 151ms (View: 150, DB: 0) | 200 OK [http://test.gb/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242588657118]
+
+
+Processing InfoController#signingup (for ::1 at 2009-05-17 12:31:04) [POST]
+  Parameters: {"authenticity_token"=>"aorAnlvbdSO+p2OdGHwWRbtRMbmeei+vm76yQBlT79E=", "email"=>"fasdf@asdf.com"}
+Sent mail to dmgoud@gmail.com
+
+From: admin@gostaberling.com
+To: dmgoud@gmail.com
+Subject: New subscriber notification! - 05.17.09 at 12:31PM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+New subscriber to your rock'n'roll fantasy:
+fasdf@asdf.com
+Rendering info/signingup
+Completed in 3858ms (View: 3, DB: 0) | 200 OK [http://test.gb/info/signingup]
+
+
+Processing InfoController#index (for ::1 at 2009-05-17 12:31:30) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://test.gb/info]
+
+
+Processing InfoController#signup (for ::1 at 2009-05-17 12:31:32) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588692540", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.gb/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242588692540]
+
+
+Processing InfoController#signingup (for ::1 at 2009-05-17 12:31:36) [POST]
+  Parameters: {"authenticity_token"=>"aorAnlvbdSO+p2OdGHwWRbtRMbmeei+vm76yQBlT79E=", "email"=>"asdfa@asdfasd.com"}
+Sent mail to dmgoud@gmail.com
+
+From: admin@gostaberling.com
+To: dmgoud@gmail.com
+Subject: New subscriber notification! - 05.17.09 at 12:31PM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+New subscriber to your rock'n'roll fantasy:
+asdfa@asdfasd.com
+Rendering info/signingup
+Completed in 3165ms (View: 1, DB: 0) | 200 OK [http://test.gb/info/signingup]
+
+
+Processing InfoController#index (for ::1 at 2009-05-17 12:33:28) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.gb/info]
+
+
+Processing InfoController#signup (for ::1 at 2009-05-17 12:33:30) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588810382", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+ERROR: compiling _run_haml_app47views47info47signup46html46haml RAISED compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47info47signup46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :format=>:xhtml, :attr_wrapper=>"'", :preserve=>["textarea", "pre"], :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+_hamlout.push_text("<h3 class='heading'>signup</h3>\n<hr class='separator' />\n"); form_remote_tag :url => '/info/signingup', :loading => "$("#TB_ajaxContent").empty().createAppend('img', { className: 'spinner', src: '/images/ajax-loader.gif' })", :html => { :id => 'form_signup' } do;
+_hamlout.push_text("<p>", false, 1);haml_temp = text_field_tag 'email', '', :size => 30, :id => 'address';
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</p>\n<p>", true, 1);haml_temp = submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox';
+haml_temp = _hamlout.push_script(haml_temp, nil, true, false, false, false);_hamlout.push_text("</p>\n", true);end;
+@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8:in `compile!'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/haml/helpers/action_view_mods.rb:14:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:978:in `render_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/david/dev/workspace/gostaberling/app/controllers/info_controller.rb:23:in `signup'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+/opt/local/lib/ruby/gems/1.8/gems/haml-2.0.9/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/head.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/methodoverride.rb:24:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/rack/request_handler.rb:81:in `process_request'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_request_handler.rb:203:in `main_loop'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/utils.rb:181:in `safe_fork'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:337:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:337:in `main_loop'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:187:in `start_synchronously'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:154:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:257:in `spawn_rails_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:251:in `spawn_rails_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:250:in `spawn_rails_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/spawn_manager.rb:282:in `handle_spawn_application'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:337:in `__send__'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:337:in `main_loop'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/lib/phusion_passenger/abstract_server.rb:187:in `start_synchronously'
+/opt/local/lib/ruby/gems/1.8/gems/passenger-2.2.2/bin/passenger-spawn-server:61
+
+ActionView::TemplateError (compile error
+/Users/david/dev/workspace/gostaberling/app/views/info/signup.html.haml:8: syntax error, unexpected kENSURE, expecting $end) on line #8 of app/views/info/signup.html.haml:
+5:   %p= submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox'
+
+    app/views/info/signup.html.haml:8:in `compile!'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/info_controller.rb:23:in `signup'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.2) lib/phusion_passenger/rack/request_handler.rb:81:in `process_request'
+    passenger (2.2.2) lib/phusion_passenger/abstract_request_handler.rb:203:in `main_loop'
+    passenger (2.2.2) lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+    passenger (2.2.2) lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+    passenger (2.2.2) lib/phusion_passenger/utils.rb:181:in `safe_fork'
+    passenger (2.2.2) lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:337:in `__send__'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:337:in `main_loop'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:187:in `start_synchronously'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:154:in `start'
+    passenger (2.2.2) lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:257:in `spawn_rails_application'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:251:in `spawn_rails_application'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:250:in `spawn_rails_application'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.2) lib/phusion_passenger/spawn_manager.rb:282:in `handle_spawn_application'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:337:in `__send__'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:337:in `main_loop'
+    passenger (2.2.2) lib/phusion_passenger/abstract_server.rb:187:in `start_synchronously'
+
+Rendered rescues/_trace (58.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing InfoController#index (for ::1 at 2009-05-17 12:33:59) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.6ms)
+Rendered common/_urchin (0.1ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.gb/info]
+
+
+Processing InfoController#signup (for ::1 at 2009-05-17 12:34:01) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588841791", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.gb/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242588841791]
+
+
+Processing InfoController#signingup (for ::1 at 2009-05-17 12:34:07) [POST]
+  Parameters: {"authenticity_token"=>"aorAnlvbdSO+p2OdGHwWRbtRMbmeei+vm76yQBlT79E=", "email"=>"asdfa@asdfasdf.com"}
+Sent mail to dmgoud@gmail.com
+
+From: admin@gostaberling.com
+To: dmgoud@gmail.com
+Subject: New subscriber notification! - 05.17.09 at 12:34PM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+New subscriber to your rock'n'roll fantasy:
+asdfa@asdfasdf.com
+Rendering info/signingup
+Completed in 5987ms (View: 1, DB: 0) | 200 OK [http://test.gb/info/signingup]
+
+
+Processing InfoController#index (for ::1 at 2009-05-17 12:34:29) [GET]
+Rendering template within layouts/application
+Rendering info/index
+Rendered common/_menu (0.7ms)
+Rendered common/_urchin (0.1ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.gb/info]
+
+
+Processing InfoController#signup (for ::1 at 2009-05-17 12:34:31) [GET]
+  Parameters: {"amp"=>nil, "height"=>"100", "random"=>"1242588871302", "inlineId"=>"popup", "width"=>"300"}
+Rendering template within layouts/popup
+Rendering info/signup
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.gb/info/signup?height=100&amp;width=300&amp;inlineId=popup&random=1242588871302]
+
+
+Processing InfoController#signingup (for ::1 at 2009-05-17 12:34:35) [POST]
+  Parameters: {"authenticity_token"=>"aorAnlvbdSO+p2OdGHwWRbtRMbmeei+vm76yQBlT79E=", "email"=>"fasdf@asdfsad.com"}
+Sent mail to dmgoud@gmail.com
+
+From: admin@gostaberling.com
+To: dmgoud@gmail.com
+Subject: New subscriber notification! - 05.17.09 at 12:34PM
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+New subscriber to your rock'n'roll fantasy:
+fasdf@asdfsad.com
+Rendering info/signingup
+Completed in 3321ms (View: 1, DB: 0) | 200 OK [http://test.gb/info/signingup]

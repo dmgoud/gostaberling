@@ -42,10 +42,9 @@ p.member a {
 }
 
 img.spinner {
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 0;
   display: block;
+  background: no-repeat url(/images/ajax-loader.gif);
 }
 
 p#address {

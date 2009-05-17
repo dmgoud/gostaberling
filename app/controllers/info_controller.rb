@@ -25,7 +25,6 @@ class InfoController < ApplicationController
   
   def signingup
     Notifier.deliver_notification(params[:email])
-    render :text => 'Email has been sent'
   end
   
 end
