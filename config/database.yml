@@ -1,19 +1,25 @@
-# This is a sample database file for the DataMapper ORM
-:development: &defaults
-  :adapter: mysql
-  :database: dev_gostaberling
-  :username: root
-  :password:
-  :host: localhost
+generic: &generic
+  adapter: mysql
+  encoding: utf8
+  username: root
+  socket: /tmp/mysql.sock
 
-:test:
-  <<: *defaults
-  :database: test_gostaberling
+development:
+  database: dev_gostaberling
+  password: password
+  <<: *generic
 
-:demo:
-  <<: *defaults
-  :database: demo_gostaberling
+test:
+  database: test_gostaberling
+  password: password
+  <<: *generic
 
-:production:
-  <<: *defaults
-  :database: prod_gostaberling
+demo:
+  database: demo_gostaberling
+  password: iron8wine
+  <<: *generic
+
+production:
+  database: prod_gostaberling
+  password: iron8wine
+  <<: *generic
