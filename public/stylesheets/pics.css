@@ -10,5 +10,35 @@ img.peel {
 
 a#flyer5 img {
   padding-bottom: 82px;
-  width:  200px;
+  width: 200px;
+}
+
+.gallery {
+/*background:transparent url(/images/ui/border-slideshow.png) no-repeat scroll 0 0;*/
+  float: left;
+  height: 208px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 364px;
+}
+
+.gallery span {
+  background: #000000 none repeat scroll 0 0;
+  bottom: 0;
+  color: #FFFFFF;
+  left: 0;
+  padding: 5px;
+  position: absolute;
+  width: 344px;
+}
+
+.gallery li, .gallery a {
+  display: block;
+  height: 198px;
+  position: relative;
+  width: 354px;
 }

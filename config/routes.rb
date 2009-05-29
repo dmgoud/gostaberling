@@ -2,6 +2,8 @@ ActionController::Routing::Routes.draw do |map|
 
   map.home '', :controller => 'home', :action => 'index'
 
+  map.resources :pics, :only => [:index], :collection => {:gallery1 => :get}
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

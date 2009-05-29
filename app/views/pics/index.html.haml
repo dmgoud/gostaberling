@@ -10,20 +10,23 @@
       %img.peel{:src => '/images/peel-slowly.png'}
 
   #right.column
-    / %img#band{:src => '/images/pics-photo1-small.png'}
     %a.photo{:id => "photo1"}
       %img{:class => 'band', :src => "/images/pics-photo1-small.png"}
-  
-#footer
-  #bandshots
-    - %w(photo2 photo3 photo4).each do |photo|
-      %a.photo{:id => "#{photo}"}
-        %img{:class => 'band', :src => "/images/pics-#{photo}-small.png"}
-    #clearboth
-    - %w(flyer4 flyer5 flyer6).each do |flyer|
-      %a.photo{:id => "#{flyer}"}
-        %img{:class => 'flyer', :src => "/images/pics-#{flyer}-small.png"}
-    #clearboth
-    - %w(flyer1 flyer2 flyer3).each do |flyer|
-      %a.photo{:id => "#{flyer}"}
-        %img{:class => 'flyer', :src => "/images/pics-#{flyer}-small.png"}
+
+:javascript
+  $(document).ready(function() {
+    var target = "?height=600&amp;width=450&amp;inlineId=popup";
+
+    $('a#photo1').addClass("thickbox").attr("href", "#{gallery1_pics_path}" + target);
+
+    $.each($("#bandshots a.photo"), function(index, photo) {
+      $(photo).addClass("thickbox").attr("href", "/images/pics-" + $(photo).attr('id')+ "-large.jpg" + target);
+    });
+
+    $.each($("#bandshots a.flyer"), function(index, flyer) {
+      $(photo).addClass("thickbox").attr("href", "/images/pics-" + $(flyer).attr('id')+ "-large.jpg" + target);
+    });
+
+    tb_init('a.thickbox');
+
+  });
