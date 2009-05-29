@@ -31,6 +31,8 @@ img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 450px;
+  width: 450px;
 }
 
 p.member {

@@ -1,12 +1,12 @@
 $(document).ready(function() {
 
-  var target = "?height=500&amp;width=450&amp;inlineId=popup"
-  var dudes = ['damon', 'david', 'carter', 'greg'] 
+  var target = "?height=500&amp;width=450&amp;inlineId=popup";
+  var dudes = ['damon', 'david', 'carter', 'greg'] ;
   for (var i=0, il=dudes.length; i<il; i++) {
     $(".portrait a#" + dudes[i]).addClass("thickbox").attr("href", "info/" + dudes[i] + target);
   }
   
-  var target_signup = "?height=100&amp;width=300&amp;inlineId=popup"
+  var target_signup = "?height=100&amp;width=300&amp;inlineId=popup";
   $("a#signup").addClass("thickbox").attr("href", "info/signup" + target_signup);
   
   tb_init('a.thickbox');
