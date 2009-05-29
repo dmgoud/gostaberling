@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" name="Default" comment="Updating home page">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/info/greg.html.haml" afterPath="$PROJECT_DIR$/app/views/info/greg.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/info/index.html.haml" afterPath="$PROJECT_DIR$/app/views/info/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/application.css" afterPath="$PROJECT_DIR$/public/stylesheets/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/portrait-carter-small-new.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/info.js" afterPath="$PROJECT_DIR$/public/javascripts/info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/popup.css" afterPath="$PROJECT_DIR$/public/stylesheets/popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/info/carter.html.haml" afterPath="$PROJECT_DIR$/app/views/info/carter.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/portrait-greg-small-new.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/info/damon.html.haml" afterPath="$PROJECT_DIR$/app/views/info/damon.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/portrait-david-small-new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/portrait-damon-small-new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/collage_dg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/collage_dc.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/info/david.html.haml" afterPath="$PROJECT_DIR$/app/views/info/david.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/collage_gd.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/collage_da.jpg" />
-    </list>
+    <list default="true" readonly="true" name="Default" comment="" />
     <ignored path="gostaberling.iws" />
     <ignored path=".idea/workspace.xml" />
   </component>
@@ -768,6 +750,7 @@
     <frame x="4" y="22" width="1916" height="1178" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
@@ -780,7 +763,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
@@ -797,7 +779,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating info pictures" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -816,6 +798,7 @@
     <MESSAGE value="Updating deploy file" />
     <MESSAGE value="Adding demo env" />
     <MESSAGE value="Updating home page" />
+    <MESSAGE value="Updating info pictures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
