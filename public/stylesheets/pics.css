@@ -14,11 +14,13 @@ a#flyer5 img {
 }
 
 .gallery {
+/*background:transparent url(/images/ui/border-slideshow.png) no-repeat scroll 0 0;*/
   float: left;
   height: 208px;
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
+  margin: 0;
   overflow: hidden;
   position: relative;
   width: 200px;
@@ -26,11 +28,10 @@ a#flyer5 img {
 
 .gallery span {
   background: #000000 none repeat scroll 0 0;
-  bottom: 4px;
-  padding: 1px 5px;
+  bottom: 3px;
   color: #FFFFFF;
   left: 0;
+  padding: 1px 4px;
   position: absolute;
-  display: none;
   width: 200px;
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" name="Default" comment="" />
+    <list default="true" readonly="true" name="Default" comment="Making captions work">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pics/gallery1.html.haml" afterPath="$PROJECT_DIR$/app/views/pics/gallery1.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/pics.css" afterPath="$PROJECT_DIR$/public/stylesheets/pics.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="gostaberling.iws" />
   </component>
@@ -30,7 +35,7 @@
       <file leaf-file-name="gallery1.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pics/gallery1.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="45" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+            <state line="17" column="55" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -39,7 +44,7 @@
       <file leaf-file-name="pics.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/pics.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="1.2818991">
+            <state line="33" column="16" selection-start="618" selection-end="618" vertical-scroll-proportion="0.6433878">
               <folding />
             </state>
           </provider>
@@ -102,7 +107,7 @@
       <file leaf-file-name="jquery.cycle.all.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.cycle.all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="50" selection-start="6791" selection-end="6791" vertical-scroll-proportion="-3.6923077">
+            <state line="212" column="50" selection-start="6791" selection-end="6791" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -564,9 +569,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="RunManagerConfig.showSettingsBeforeRunnig" value="false" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: gostaberling">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -770,15 +775,32 @@
     <configuration useDefault="true">/Users/david/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="/Users/david/dev/workspace/cc_site" />
+          <option name="myCopyRoot" value="/Users/david/dev/workspace/cc_site" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="/Users/david/dev/workspace/cc_site" />
+          <option name="myCopyRoot" value="/Users/david/dev/workspace/cc_site" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1916" height="1178" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32933578" sideWeight="0.0" order="7" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6651291" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6642066" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50553507" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="2" side_tool="false" />
@@ -787,6 +809,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="1" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
@@ -857,6 +880,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/s3Slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="2924" selection-end="2924" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.cycle.all.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="27880" selection-end="27880" vertical-scroll-proportion="0.0">
@@ -878,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/pics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -892,30 +915,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.cycle.all.js">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="50" selection-start="6791" selection-end="6791" vertical-scroll-proportion="-3.6923077">
+        <state line="16" column="22" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/s3Slider.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.cycle.all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2924" selection-end="2924" vertical-scroll-proportion="0.0">
+        <state line="212" column="50" selection-start="6791" selection-end="6791" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pics/gallery1.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+        <state line="17" column="55" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/pics.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="1.2818991">
+        <state line="33" column="16" selection-start="618" selection-end="618" vertical-scroll-proportion="0.6433878">
           <folding />
         </state>
       </provider>
