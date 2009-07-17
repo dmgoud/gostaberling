@@ -86,7 +86,7 @@
       <file leaf-file-name="geminstaller.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/geminstaller.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="16" selection-start="295" selection-end="295" vertical-scroll-proportion="0.39344263">
+            <state line="9" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20829315">
               <folding />
             </state>
           </provider>
@@ -837,7 +837,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating rake" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating rake again" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -859,6 +859,7 @@
     <MESSAGE value="Making captions work" />
     <MESSAGE value="Fixing stuff" />
     <MESSAGE value="updating rake" />
+    <MESSAGE value="updating rake again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -951,7 +952,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/geminstaller.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="295" selection-end="295" vertical-scroll-proportion="0.39344263">
+        <state line="9" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.20829315">
           <folding />
         </state>
       </provider>

@@ -7,7 +7,7 @@ gems:
 - name: haml
   version: 2.0.9
 - name: hoe
-  version: 1.11.0
+  version: 1.12.1
 - name: passenger
   version: 2.2.2
 - name: rack
