@@ -15,7 +15,7 @@ gems:
 - name: rails
   version: 2.3.2
 - name: rake
-  version: 0.8.4
+  version: 0.8.7
 - name: rake
   version: 0.8.4
 - name: openrain-action_mailer_tls
