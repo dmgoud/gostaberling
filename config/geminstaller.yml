@@ -3,7 +3,7 @@ defaults:
   install_options: --include-dependencies --no-rdoc
 gems:
 - name: geminstaller
-  version: 0.5.1
+  version: 0.5.3
 - name: haml
   version: 2.0.9
 - name: hoe
