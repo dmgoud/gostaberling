@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
   <component name="ChangeListManager" verified="true">
-    <list default="true" readonly="true" id="43120c75-5268-4de3-bfe7-80321bb3c3fc" name="Default" comment="">
+    <list default="true" readonly="true" id="43120c75-5268-4de3-bfe7-80321bb3c3fc" name="Default" comment="Updating workspace file">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -982,7 +982,7 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating workspace file" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1012,6 +1012,7 @@
     <MESSAGE value="Adding ignore file" />
     <MESSAGE value="Keeping workspace.xml file" />
     <MESSAGE value="Updating home page" />
+    <MESSAGE value="Updating workspace file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
