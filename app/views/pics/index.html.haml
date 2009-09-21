@@ -15,18 +15,19 @@
 
 :javascript
   $(document).ready(function() {
-    var target = "?height=600&amp;width=450&amp;inlineId=popup";
+    //COMMENT BACK IN WHEN READY TO DO SLIDESHOW
+    //var target = "?height=600&amp;width=450&amp;inlineId=popup";
 
-    $('a#photo1').addClass("thickbox").attr("href", "#{gallery1_pics_path}" + target);
+    //$('a#photo1').addClass("thickbox").attr("href", "#{gallery1_pics_path}" + target);
 
-    $.each($("#bandshots a.photo"), function(index, photo) {
-      $(photo).addClass("thickbox").attr("href", "/images/pics-" + $(photo).attr('id')+ "-large.jpg" + target);
-    });
+    //$.each($("#bandshots a.photo"), function(index, photo) {
+    //  $(photo).addClass("thickbox").attr("href", "/images/pics-" + $(photo).attr('id')+ "-large.jpg" + target);
+    //});
+    //
+    //$.each($("#bandshots a.flyer"), function(index, flyer) {
+    //  $(photo).addClass("thickbox").attr("href", "/images/pics-" + $(flyer).attr('id')+ "-large.jpg" + target);
+    //});
 
-    $.each($("#bandshots a.flyer"), function(index, flyer) {
-      $(photo).addClass("thickbox").attr("href", "/images/pics-" + $(flyer).attr('id')+ "-large.jpg" + target);
-    });
-
-    tb_init('a.thickbox');
+    //tb_init('a.thickbox');
 
   });

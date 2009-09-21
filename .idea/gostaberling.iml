@@ -12,15 +12,15 @@
   <component name="GemRequirementsHolder">
     <requirement>
       <requirement>
-        <dependency name="mysql" version="0" bound="GREATER_OR_EQUAL" />
-      </requirement>
-      <source from="config/database.yml" />
-    </requirement>
-    <requirement>
-      <requirement>
         <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" />
       </requirement>
       <source from="config/boot.rb" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mysql" version="0" bound="GREATER_OR_EQUAL" />
+      </requirement>
+      <source from="config/database.yml" />
     </requirement>
   </component>
   <component name="NewModuleRootManager">
