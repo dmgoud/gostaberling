@@ -5,21 +5,21 @@ generic: &generic
   socket: /tmp/mysql.sock
 
 development:
-  database: dev_gostaberling
+  database: gosta_dev
   password: password
   <<: *generic
 
 test:
-  database: test_gostaberling
+  database: gosta_test
   password: password
   <<: *generic
 
 demo:
-  database: demo_gostaberling
+  database: gosta_demo
   password: iron8wine
   <<: *generic
 
 production:
-  database: prod_gostaberling
+  database: gosta_prod
   password: iron8wine
   <<: *generic
