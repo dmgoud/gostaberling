@@ -1,4 +1,5 @@
 .idea/workspace.xml
 bin/*
+tmp/*
 vendor/bundler_gems/*
 !vendor/bundler_gems/ruby/1.8/cache/
