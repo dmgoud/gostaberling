@@ -13,25 +13,47 @@ a#flyer5 img {
   width: 200px;
 }
 
-.gallery {
+/*.gallery {*/
 /*background:transparent url(/images/ui/border-slideshow.png) no-repeat scroll 0 0;*/
-  float: left;
-  height: 208px;
-  list-style-image: none;
-  list-style-position: outside;
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
-  width: 200px;
+  /*float: left;*/
+  /*height: 700px;*/
+  /*list-style-image: none;*/
+  /*list-style-position: outside;*/
+  /*list-style-type: none;*/
+  /*margin: 0;*/
+  /*overflow: hidden;*/
+  /*position: relative;*/
+  /*width: 200px;*/
+/*}*/
+
+/*.gallery span {*/
+  /*background: #000000 none repeat scroll 0 0;*/
+  /*bottom: 3px;*/
+  /*color: #FFFFFF;*/
+  /*left: 0;*/
+  /*padding: 1px 4px;*/
+  /*position: absolute;*/
+  /*width: 200px;*/
+/*}*/
+
+.photos {
+  /*display: none;*/
+  /*visibility: hidden;*/
+  
+  /*border: 1px solid red;*/
+  /*width: 700px;*/
+  /*margin: 30px auto 0;*/
 }
 
-.gallery span {
-  background: #000000 none repeat scroll 0 0;
-  bottom: 3px;
-  color: #FFFFFF;
-  left: 0;
-  padding: 1px 4px;
-  position: absolute;
-  width: 200px;
+.filmstrip img {
+  height: 100px;
+  width: 100px;
+}
+
+.photos .title {
+
+}
+
+.photos .desc {
+  font-style: italic;
 }

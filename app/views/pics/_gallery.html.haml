@@ -1,0 +1,64 @@
+#photos.galleryview
+  = gallery_panel "candids/20080518_2135.JPG", "&nbsp;", "From the Treasure Island photo shoot. Damon sets the table"
+  = gallery_panel "candids/20080518_2136.JPG", "&nbsp;", "From the Treasure Island photo shoot. Damon ponders the look"
+  = gallery_panel "candids/20080518_2143.JPG", "&nbsp;", "From the Treasure Island photo shoot."
+  = gallery_panel "candids/20080520_2181.JPG", "&nbsp;", "The set of The Collection Agency taping"
+  = gallery_panel "candids/20080914_2467.JPG", "&nbsp;", "In the rehearsal studio, DG noodles"
+  = gallery_panel "candids/20080914_2471.JPG", "&nbsp;", "In the rehearsal studio, Damon adjusts"
+  = gallery_panel "candids/20080914_2472.JPG", "&nbsp;", "In the rehearsal studio, Damon shreds"
+  = gallery_panel "candids/20081214_2694a.JPG", "&nbsp;", "At Closer Studios, Damon tunes"
+  = gallery_panel "candids/20081214_2703.JPG", "&nbsp;", "At Closer Studios, DG & Damon"
+  = gallery_panel "candids/20081214_2708.JPG", "&nbsp;", "Mixing board at Closer Studios"
+  = gallery_panel "candids/20090215_2872.JPG", "&nbsp;", "EP recording at the cabin"
+  = gallery_panel "candids/20090426_2931.JPG", "&nbsp;", "EP recording at the cabin. Guest singer Sadie Contini"
+  = gallery_panel "candids/20090816_3702.JPG", "&nbsp;", "EP recording at the cabin. Guest keyboardist PF Dumanis"
+  = gallery_panel "live/DSCN2486.JPG", "&nbsp;", "October 2008, At Redwood City Underground"
+  = gallery_panel "live/DSCN2487.JPG", "&nbsp;", "October 2008, At Redwood City Underground"
+  = gallery_panel "live/20090607_2952a.JPG", "&nbsp;", "June 7, Numi Teahouse. With special guests for the Vegan Table book launch party"
+  = gallery_panel "live/20090607_2973.JPG", "&nbsp;", "June 7, Numi Teahouse. The Vegan Table book launch party"
+  = gallery_panel "live/20090607_2978a.JPG", "&nbsp;", "June 7, Numi Teahouse. The Vegan Table book launch party"
+  = gallery_panel "live/20090607_2979a.JPG", "&nbsp;", "June 7, Numi Teahouse. The Vegan Table book launch party"
+  = gallery_panel "live/gosta_at_blakes_120509.JPG", "&nbsp;", "Greg, DG and Damon at Blake & Deb's holiday party"
+  = gallery_panel "live/mrsmiths_042408_fullband_1.JPG", "&nbsp;", "The first show with Greg, April 2008 at Mr. Smiths"
+  = gallery_panel "live/mrsmiths_071708_2.JPG", "&nbsp;", "Mr. Smiths, July 2008"
+  = gallery_panel "live/DSC_0627.JPG", "&nbsp;", "March 2009 at Thee Parkside"
+  = gallery_panel "live/DSC_0631.JPG", "&nbsp;", "March 2009 at Thee Parkside"
+  = gallery_panel "live/DSC_0647.JPG", "&nbsp;", "March 2009 at Thee Parkside"
+  %ul.filmstrip
+    = gallery_filmstrip "candids/20080518_2135.JPG","", "From the Treasure Island photo shoot. Damon sets the table"
+    = gallery_filmstrip "candids/20080518_2136.JPG","", "From the Treasure Island photo shoot. Damon ponders the look"
+    = gallery_filmstrip "candids/20080518_2143.JPG","", "From the Treasure Island photo shoot."
+    = gallery_filmstrip "candids/20080520_2181.JPG","", "The set of The Collection Agency taping"
+    = gallery_filmstrip "candids/20080914_2467.JPG","", "In the rehearsal studio, DG noodles"
+    = gallery_filmstrip "candids/20080914_2471.JPG","", "In the rehearsal studio, Damon adjusts"
+    = gallery_filmstrip "candids/20080914_2472.JPG","", "In the rehearsal studio, Damon shreds"
+    = gallery_filmstrip "candids/20081214_2694a.JPG", "", "At Closer Studios, Damon tunes"
+    = gallery_filmstrip "candids/20081214_2703.JPG","", "At Closer Studios, DG & Damon"
+    = gallery_filmstrip "candids/20081214_2708.JPG","", "Mixing board at Closer Studios"
+    = gallery_filmstrip "candids/20090215_2872.JPG","", "EP recording at the cabin"
+    = gallery_filmstrip "candids/20090426_2931.JPG","", "EP recording at the cabin. Guest singer Sadie Contini"
+    = gallery_filmstrip "candids/20090816_3702.JPG","", "EP recording at the cabin. Guest keyboardist PF Dumanis"
+    = gallery_filmstrip "live/DSCN2486.JPG", "", "October 2008, At Redwood City Underground"
+    = gallery_filmstrip "live/DSCN2487.JPG", "", "October 2008, At Redwood City Underground"
+    = gallery_filmstrip "live/20090607_2952a.JPG", "", "June 7, Numi Teahouse. With special guests for the Vegan Table book launch party"
+    = gallery_filmstrip "live/20090607_2973.JPG", "", "June 7, Numi Teahouse. The Vegan Table book launch party"
+    = gallery_filmstrip "live/20090607_2978a.JPG", "", "June 7, Numi Teahouse. The Vegan Table book launch party"
+    = gallery_filmstrip "live/20090607_2979a.JPG", "", "June 7, Numi Teahouse. The Vegan Table book launch party"
+    = gallery_filmstrip "live/gosta_at_blakes_120509.JPG", "", "Greg, DG and Damon at Blake & Deb's holiday party"
+    = gallery_filmstrip "live/mrsmiths_042408_fullband_1.JPG", "", "The first show with Greg, April 2008 at Mr. Smiths"
+    = gallery_filmstrip "live/mrsmiths_071708_2.JPG", "", "Mr. Smiths, July 2008"
+    = gallery_filmstrip "live/DSC_0627.JPG", "", "March 2009 at Thee Parkside"
+    = gallery_filmstrip "live/DSC_0631.JPG", "", "March 2009 at Thee Parkside"
+    = gallery_filmstrip "live/DSC_0647.JPG", "", "March 2009 at Thee Parkside"
+
+:javascript
+  $('#photos').galleryView({
+    panel_width: 640,
+    panel_height: 360,
+    frame_width: 100,
+    frame_height: 100,
+    nav_theme: 'light',
+    border: 'none'
+  });
+
+  $('#photos').css({'margin': '30px auto 0'});

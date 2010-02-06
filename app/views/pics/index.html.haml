@@ -5,29 +5,13 @@
   #left.column
     %a{:href => '/'}
       %img#bed{:src => '/images/bed1.png'}
+
   #middle.column
-    #blurb
-      %img.peel{:src => '/images/peel-slowly.png'}
+    %img.peel{:src => '/images/peel-slowly.png'}
 
   #right.column
-    %a.photo{:id => "photo1"}
-      %img{:class => 'band', :src => "/images/pics-photo1-small.png"}
 
-:javascript
-  $(document).ready(function() {
-    //COMMENT BACK IN WHEN READY TO DO SLIDESHOW
-    //var target = "?height=600&amp;width=450&amp;inlineId=popup";
-
-    //$('a#photo1').addClass("thickbox").attr("href", "#{gallery1_pics_path}" + target);
-
-    //$.each($("#bandshots a.photo"), function(index, photo) {
-    //  $(photo).addClass("thickbox").attr("href", "/images/pics-" + $(photo).attr('id')+ "-large.jpg" + target);
-    //});
-    //
-    //$.each($("#bandshots a.flyer"), function(index, flyer) {
-    //  $(photo).addClass("thickbox").attr("href", "/images/pics-" + $(flyer).attr('id')+ "-large.jpg" + target);
-    //});
-
-    //tb_init('a.thickbox');
-
-  });
+  #clearboth
+  
+  #bottom.column
+    = render :partial => 'gallery'
