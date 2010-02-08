@@ -45,6 +45,12 @@ a#flyer5 img {
   /*margin: 30px auto 0;*/
 }
 
+#photos .panel img {
+  width: 640px;
+  height: 480px;
+}
+
+
 .filmstrip img {
   height: 100px;
   width: 100px;
