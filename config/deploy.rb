@@ -2,19 +2,19 @@ set :stages, %w(demo production)
 set :default_stage, 'demo'
 
 require 'capistrano/ext/multistage'
-require 'mongrel_cluster/recipes'
+#require 'mongrel_cluster/recipes'
 
-namespace :deploy do
-  task :geminstaller, :roles => :app do
-    sudo "geminstaller -c #{current_release}/config/geminstaller.yml"
-  end
-end
+#namespace :deploy do
+#  task :geminstaller, :roles => :app do
+#    sudo "geminstaller -c #{current_release}/config/geminstaller.yml"
+#  end
+#end
 
 # load custom rake tasks after the default tasks
 # load_paths << 'config/deploy'
 # load 'common'
 
-after "deploy:update_code", "deploy:geminstaller"
+#after "deploy:update_code", "deploy:geminstaller"
 before "deploy:migrate", "deploy:web:disable"
 after "deploy:migrate", "deploy:web:enable"
 after "deploy:migrate", "deploy:cleanup"
