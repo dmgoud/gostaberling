@@ -12,7 +12,7 @@ require 'capistrano/ext/multistage'
 
 namespace :bundler do
   task :install do
-    run("gem install bundler --source=http://gemcutter.org")
+    run("gem install bundler -v0.8.1 --source=http://gemcutter.org")
   end
 
   task :symlink_vendor do
