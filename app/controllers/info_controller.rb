@@ -11,7 +11,7 @@ class InfoController < ApplicationController
     render :layout => 'popup'
   end
 
-  def carter
+  def andre
     render :layout => 'popup'
   end
 

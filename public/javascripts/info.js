@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   var target = "?height=500&amp;width=450&amp;inlineId=popup";
-  var dudes = ['damon', 'david', 'carter', 'greg'] ;
+  var dudes = ['damon', 'david', 'andre', 'greg'] ;
   for (var i=0, il=dudes.length; i<il; i++) {
     $(".portrait a#" + dudes[i]).addClass("thickbox").attr("href", "info/" + dudes[i] + target);
   }
