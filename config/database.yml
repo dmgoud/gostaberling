@@ -2,7 +2,7 @@ generic: &generic
   adapter: mysql
   encoding: utf8
   username: root
-  socket: /tmp/mysql.sock
+#  socket: /tmp/mysql.sock
 
 development:
   database: gosta_dev
