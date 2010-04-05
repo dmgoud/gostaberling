@@ -70,6 +70,10 @@ p#submit {
   padding: 10px 15px 0 15px;
 }
 
+#TB_ajaxContent p {
+  margin: 0;
+}
+
 #TB_window a:link {
   color: gray;
 }
