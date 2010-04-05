@@ -1,16 +1,6 @@
-div#bandshots img.band, div#bandshots img.flyer {
-  margin: 1em 1em 1em 1em;
-}
-
 img.peel {
-  margin-top: 14em;
   display: block;
-  margin-left: 8em;
-}
-
-a#flyer5 img {
-  padding-bottom: 82px;
-  width: 200px;
+  margin: 0 auto;
 }
 
 #photos .panel img {
@@ -18,14 +8,9 @@ a#flyer5 img {
   height: 480px;
 }
 
-
 .filmstrip img {
   height: 100px;
   width: 100px;
-}
-
-.photos .title {
-
 }
 
 .photos .desc {

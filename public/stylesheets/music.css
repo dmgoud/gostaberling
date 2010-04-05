@@ -1,6 +1,11 @@
+h4 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 img#ep {
-  margin: 0 0 0 -7em;
-  width: 120%;
+  width: 250px;
 }
 
 p#buy_ep {
@@ -11,18 +16,6 @@ div#middle, ul.eptracks, ul.demos {
   font: small-caps 1.1em "arial", "verdana", "trebuchet", comic-sans, verdana, arial, sans-serif;
 }
 
-ul.eptracks {
-  list-style-type: decimal;
-  list-style-image: none;
-  list-style-position: inside;
-}
-
 a:hover {
   text-decoration: underline;
-}
-
-ul.demos {
-  list-style-type: disc;
-  list-style-image: none;
-  list-style-position: inside;
 }

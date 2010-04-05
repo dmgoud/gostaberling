@@ -135,10 +135,13 @@ p {
   float: right;
 }
 
+.content > ul > li {
+  margin-bottom: 3em;
+}
+
 ul > li > .article {
   float: left;
   width: 50%;
-  padding-bottom: 5em;
 }
 
 ul > li {

@@ -2,16 +2,12 @@
   = render :partial => 'common/menu'
 
 #container
-  #left.column
+  .sidebar
     %a{:href => '/'}
       %img#bed{:src => '/images/bed1.png'}
 
-  #middle.column
-    %img.peel{:src => '/images/peel-slowly.png'}
+  .article
 
-  #right.column
-
-  #clearboth
-  
-  #bottom.column
-    = render :partial => 'gallery'
+#footer
+  %img.peel{:src => '/images/peel-slowly.png'}
+  = render :partial => 'gallery'

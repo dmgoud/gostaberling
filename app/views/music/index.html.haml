@@ -2,82 +2,77 @@
   = render :partial => 'common/menu'
 
 #container
-  #left.column
+  .sidebar
     %a{:href => '/'}
       %img#bed{:src => '/images/bed1.png'}
-  #middle.column
-    %br/
-    %br/
-    Want a free song from 
-    %i Travel
-    ?
-    %p
-    Check out
-    %p.line
-      %a{:href => 'http://gostab.freeshell.org/GostaBerling_Across_the_Lake.mp3'} Across the Lake (mp3)
-    %p 
-    (right click to save)
-    %br/
-    %br/
-    You can stream the entire |
-    %p
-    EP for free at  
-    %p.line
-      %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
-    or  
-    %p.line
-      %a{:href => 'http://www.facebook.com/gostaberling'} facebook.com/gostaberling
-    %br/
-    %br/
-    %br/
-    %br/
-    %br/
-    Listen to our first EP
-    %br/
-    %i Everybody's Sweetheart:
-    %br/
-    right here
-    %br/
-    %ul.eptracks
-      %li
-        %a{:id => 'ziegfeld', :href => '#'} Ziegfeld Girl
-      %li
-        %a{:id => 'garden', :href => '#'} The Garden of Allah
-      %li
-        %a{:id => 'rebecca', :href => '#'} Rebecca
-      %li
-        %a{:id => 'these_days', :href => '#'} These Days
-      %li
-        %a{:id => 'berlin', :href => '#'} Berlin
+  .article
+    .content
+      %ul
+        %li
+          .article
+          .sidebar
+            %h4
+              = link_to 'buy the eps', 'shop', :id => 'buy_the_ep'
+            
+        %li
+          .article
+            %h4
+              Want a free song from
+              %i>< Travel
+              ?
+              %p
+              Check out
+              %p.line
+              %a{:href => 'http://gostab.freeshell.org/GostaBerling_Across_the_Lake.mp3'} Across the Lake (mp3)
+              (right click to save)
+              %p.line
+              You can stream the entire |
+              EP for free at
+              %p.line
+                %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
+              %p.line
+              or at
+              %p.line
+              %p.line
+                %a{:href => 'http://www.facebook.com/gostaberling'} facebook.com/gostaberling
+          .sidebar
+            %img#ep{:src => '/images/travel_front.png'}
+        %li
+          .article
+            %h4
+              Listen to our first EP
+              %i Everybody's Sweetheart
+              right here.
+              %ul.eptracks
+                %li
+                  %a{:id => 'ziegfeld', :href => '#'} Ziegfeld Girl
+                %li
+                  %a{:id => 'garden', :href => '#'} The Garden of Allah
+                %li
+                  %a{:id => 'rebecca', :href => '#'} Rebecca
+                %li
+                  %a{:id => 'these_days', :href => '#'} These Days
+                %li
+                  %a{:id => 'berlin', :href => '#'} Berlin
+          .sidebar
+            %img#ep{:src => '/images/gosta_sweetheart_sm.gif'}
+        %li
+          .article
+            %h4
+              Wanna hear some early demos?
+              %ul.demos
+                %li
+                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/lili%20marlene%2020070520.mp3'} Lili Marlene (2007)
+                %li
+                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/baby%20jane.mp3'} Baby Jane (2006)
+                %li
+                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/so%20lonely.mp3'} So Lonely (2005)
+                %li
+                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/diplomacy.mp3'} Diplomacy (2005)
+                %li
+                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/little%20garbo%20demo.mp3'} Little Garbo (2005)
+          .sidebar
 
-    %br/
-    %br/
-    Wanna hear some early demos?
-    %br/
 
-    %ul.demos
-      %li
-        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/lili%20marlene%2020070520.mp3'} Lili Marlene (2007)
-      %li
-        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/baby%20jane.mp3'} Baby Jane (2006)
-      %li
-        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/so%20lonely.mp3'} So Lonely (2005)
-      %li
-        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/diplomacy.mp3'} Diplomacy (2005)
-      %li
-        %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/little%20garbo%20demo.mp3'} Little Garbo (2005)
-
-
-  #right.column
-    %p#buy_ep
-    %b= link_to 'buy the eps', 'shop', :id => 'buy_the_ep'
-    %br
-    %br
-    %img#ep{:src => '/images/gosta_sweetheart_sm.gif'}
-      %br/
-      %br/
-      %br/
-    %img#ep{:src => '/images/gosta_sweetheart_sm.gif'}  
-  
 #footer
   - 
