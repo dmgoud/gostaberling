@@ -1,35 +1,24 @@
-#blurb {
-  margin: 4em 0 0 0;
-  padding: 0 1em 0 0;
-}
-
-#blurb a:hover {
-  text-decoration: underline;
-}
-
-#band {
-  margin-top: 6em;
-}
-
-p.line {
-  margin: 1em 0 0 0;
-  font-size: 1.2em;
+.article > .content {
+  width: 50%;
 }
 
 #portraits {
+  overflow: hidden;
+  width: 77%;
+  margin: 0 auto;
   padding-top: 5em;
 }
 
-img.portrait {
+.portrait {
+  float: left;
+}
+
+.portrait img.portrait {
   width: 10em;
   margin: 0 2.2em;
 }
 
-div.portrait {
-  float: left;
-}
-
-div.portrait a {
+.portrait a {
   display: block;
 }
   
@@ -40,12 +29,15 @@ p.caption {
 
 #submit_button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
 #address {
   display: block;
   margin: 0 auto;
+}
+
+#TB_ajaxContent p {
+  margin: 0;
 }

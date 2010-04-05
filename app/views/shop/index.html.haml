@@ -2,52 +2,53 @@
   = render :partial => 'common/menu'
 
 #container
-  #left.column
+  .sidebar
     %a{:href => '/'}
       %img#bed{:src => '/images/bed1.png'}
-  #middle.column
-    #blurb
-      %br
-      %h4 
-        %i Travel
-        is available for only $5 as digital download at 
-      %a{:href => 'http://itunes.apple.com/us/album/travel/id352879302'}
-        iTunes
-      ,
-      %a{:href => 'http://www.lala.com/#album/2810527644410744975/Gosta_Berling/Travel'}
-        Lala
-      ,
-      %a{:href => 'http://www.amazon.com/Travel/dp/B003DO887C/'}
-        Amazon
-      , and
-      %a{:href => 'http://www.cdbaby.com/cd/gostaberling2'}
-        CD Baby.
-      %p.line
-      %br
-      %h4
-        If you want a CD copy of Travel, send your name and |
-        mailing address to:
-      %p.line
-        %strong theband [at] gostaberling DOT com
-      %p.line
-      %br
-      %h4  
-        CDs are $7, shipping (to the US) included. |	
-        Overseas shipping cost depends on where | 
-        we're sending it. |
-      %p.line
-      %br
-      %h4
-        Our first EP
-        %i Everybody's Sweetheart 
-        can also be found in digital form |
-        at iTunes, Lala, Amazon and CD Baby, |
-        or on CD from the band. 
-  #right.column
-    %img#ep{:src => '/images/gosta_sweetheart_sm.gif'}
-      %br
-      %br
-      %br
-    %img#ep{:src => '/images/gosta_sweetheart_sm.gif'}  
+  .article
+    .content
+      %ul
+        %li
+          .article
+            %h4
+              %i Travel
+              is available for only $5 as digital download at
+              %a{:href => 'http://itunes.apple.com/us/album/travel/id352879302'}
+                iTunes
+              ,
+              %a{:href => 'http://www.lala.com/#album/2810527644410744975/Gosta_Berling/Travel'}
+                Lala
+              ,
+              %a{:href => 'http://www.amazon.com/Travel/dp/B003DO887C/'}
+                Amazon
+              , and
+              %a{:href => 'http://www.cdbaby.com/cd/gostaberling2'}
+                CD Baby.
+            %p.line
+            %br
+            %h4
+              If you want a CD copy of Travel, send your name and |
+              mailing address to:
+            %p.line
+              %strong theband [at] gostaberling DOT com
+            %p.line
+            %br
+            %h4
+              CDs are $7, shipping (to the US) included. |
+              Overseas shipping cost depends on where |
+              we're sending it. |
+            %p.line
+          .sidebar
+            %img#ep{:src => '/images/travel_front.png'}
+        %li
+          .article
+            %h4
+              Our first EP
+              %i Everybody's Sweetheart
+              can also be found in digital form |
+              at iTunes, Lala, Amazon and CD Baby, |
+              or on CD from the band.
+          .sidebar
+            %img#ep{:src => '/images/gosta_sweetheart_sm.gif'}  
 #footer
   -

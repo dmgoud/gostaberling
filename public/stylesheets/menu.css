@@ -1,15 +1,6 @@
-#menu {
+.menu {
   font-family: "Comic Sans MS", sans-serif;
   font-style: italic;
-}
-
-#menu #gostaberling {
-  font-size: 2.8em;
-  margin-right: 3.0em;
-}
-
-#menu #gostaberling a:hover {
-  text-decoration: none;
 }
 
 #music, #info, #pics, #shop {
@@ -17,19 +8,27 @@
   margin-right: 1.3em;
 }
 
-#menu a:hover {
+.menu a:hover {
 /*  text-decoration: underline;*/
 }
 
-#menu img {
+.menu img {
   padding-bottom: 3px;
 }
 
-#menu img.unselected:hover {
+.menu img.unselected:hover {
   padding-bottom: 0;
   border-bottom: 3px solid #999;
 }
 
-#menu img.selected {
+.menu img.selected {
   padding-bottom: 3px;
+}
+
+.logo {
+  font-size: 2.8em;
+}
+
+.logo a:hover {
+  text-decoration: none;
 }

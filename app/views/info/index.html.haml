@@ -2,33 +2,33 @@
   = render :partial => 'common/menu'
 
 #container
-  #left.column
+  .sidebar
     %a{:href => '/'}
       %img#bed{:src => '/images/bed1.png'}
-  #middle.column
-    #blurb
-      %p Blending the tradition of topical, lyric-oriented |
-         songwriting with indie guitar rock.  Hints of 80s | 
-         college radio and 60s british invasion |
-         sounds. |
-      %p.line
-        %i sign up for the  
-        %a{:id => 'signup'} email notification list
-      %p.line
-        %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
-      %p.line
-        %a{:href => 'http://www.facebook.com/gostaberling'} facebook.com/gostaberling
-      %p.line
-        %a{:href => 'http://www.youtube.com/user/gostaberling'} youtube.com/user/gostaberling
-      %p.line
-        %a{:href => 'http://www.twitter.com/gostaberling_ca'} twitter.com/gostaberling_ca
-      %p.line
-        %i email all inquiries to:
-        %br
-        %strong theband [at] gostaberling DOT com
-
-  #right.column
-    %img#band{:src => '/images/photo-band-info.png'}
+  .article
+    .content
+      #blurb
+        %p Blending the tradition of topical, lyric-oriented |
+           songwriting with indie guitar rock.  Hints of 80s |
+           college radio and 60s british invasion |
+           sounds. |
+        %p.line
+          %i sign up for the
+          %a{:id => 'signup'} email notification list
+        %p.line
+          %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
+        %p.line
+          %a{:href => 'http://www.facebook.com/gostaberling'} facebook.com/gostaberling
+        %p.line
+          %a{:href => 'http://www.youtube.com/user/gostaberling'} youtube.com/user/gostaberling
+        %p.line
+          %a{:href => 'http://www.twitter.com/gostaberling_ca'} twitter.com/gostaberling_ca
+        %p.line
+          %i email all inquiries to:
+          %br
+          %strong theband [at] gostaberling DOT com
+    .sidebar
+      %img#band{:src => '/images/photo-band-info.png'}
   
 #footer
   #portraits

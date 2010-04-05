@@ -1,0 +1,16 @@
+#right {
+}
+
+#right img {
+  padding-left: 2em;
+  display: block;
+  margin: 0 auto;
+}
+
+#blurb {
+  float: left;
+}
+
+.albums {
+  float: right;
+}

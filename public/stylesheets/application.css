@@ -20,7 +20,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	border:0;
-	width: 700px;
+	width: 900px;
 }
 
 #header {
@@ -28,10 +28,11 @@ body {
 }
 
 #container {
+  overflow: hidden;
 }
 
 #left, #right {
-	width: 200px;
+	width: 250px;
 }
 
 #left {
@@ -78,3 +79,75 @@ img {
 :focus { 
   -moz-outline-style: none; 
 }
+
+/* ========= NEW CSS */
+
+p {
+  margin-bottom: 1em;
+}
+
+#header {
+  padding: 0 3em;
+  overflow: hidden;
+}
+
+#header > .logo {
+  float: left;
+}
+
+#header > .menu {
+  float: right;
+}
+
+#footer {
+  overflow: hidden;
+  text-align: center;
+}
+
+.sidebar {
+  float: left;
+  width: 300px;
+}
+
+#container > .sidebar {
+  width: 25%;
+}
+
+.sidebar img {
+  display: block;
+  margin: 0 auto;
+}
+
+.article {
+  float: right;
+  width: 75%;
+}
+
+.article > .content {
+  float: left;
+}
+
+.article > .content > h4 {
+  font-style: italic;
+}
+
+.article > .sidebar {
+  float: right;
+}
+
+ul > li > .article {
+  float: left;
+  width: 50%;
+  padding-bottom: 5em;
+}
+
+ul > li {
+  display: block;
+  overflow: hidden;
+}
+
+ul > li > .sidebar {
+  float: right;
+}
+
+

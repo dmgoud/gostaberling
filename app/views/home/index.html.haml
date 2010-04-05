@@ -2,13 +2,11 @@
   = render :partial => 'common/menu'
 
 #container
-
-  #left.column
+  .sidebar
     %a{:href => '/'}
       %img#bed{:src => '/images/bed1.png'}
-
-  #middle.column
-    #news
+  .article
+    .content
       %h4 news:
       %p
         Our 2nd EP
@@ -41,9 +39,9 @@
         SF Bay Area music blog Kata Rokkar calls us
         %a{:href => 'http://katarokkar.cribble.net/2010/03/kuestionnaire-gosta-berling/trackback/'}
           "...young and fresh sounding".
-  #right.column
-    %a#flyer{:href => '#'}
-      %img#flyer{:src => '/images/gb_couch1_kimos_022510a.jpg'}
+    .sidebar
+      %a#flyer{:href => '#'}
+        %img#flyer{:src => '/images/gb_couch1_kimos_022510a.jpg'}
 
 #footer
   -
