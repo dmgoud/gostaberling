@@ -11,7 +11,7 @@
       %p
         Our 2nd EP
         %i Travel
-        is available now at
+        is available at
         %a{:href => 'http://itunes.apple.com/us/album/travel/id352879302'}
           iTunes
         ,
@@ -40,16 +40,15 @@
         %a{:href => 'http://katarokkar.cribble.net/2010/03/kuestionnaire-gosta-berling/trackback/'}
           "...young and fresh sounding".
     .sidebar
-      %a#flyer{:href => '#'}
-        %img#flyer{:src => '/images/gb_couch1_kimos_022510a.jpg'}
+      %a#flyer{:href => '/images/gb_couch1_kimos_022510a_big.jpg'}
+        %img{:src => '/images/gb_couch1_kimos_022510a.jpg'}
 
 #footer
   -
 
 :javascript
   $(function() {
-    $("a#flyer").addClass("thickbox").attr("href", "/images/gb_couch1_kimos_022510a_big.jpg?height=600&amp;width=400&amp;inlineId=popup");
-    tb_init('a.thickbox');
+    $("a#flyer").fancybox();
   });
 
 

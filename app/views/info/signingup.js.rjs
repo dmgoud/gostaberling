@@ -1,1 +1,0 @@
-page.replace_html "TB_ajaxContent", "<h3 class=\'center\'>You've been subscribed!</h3>"

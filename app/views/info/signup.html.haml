@@ -1,6 +1,25 @@
 %h3.heading signup
 %hr.separator
-- form_remote_tag :url => '/info/signingup', :loading => "$('#TB_ajaxContent').empty().createAppend('img', { className: 'spinner', src: '/images/ajax-loader.gif' })", :html => { :id => 'form_signup' } do
-  %p= text_field_tag 'email', '', :size => 30, :id => 'address'
-  %p= submit_tag 'Subscribe', :id => 'submit_button', :class => 'thickbox'
 
+%form{:url => 'info/signup'}
+  %p= text_field_tag 'email', '', :size => 30, :id => 'address'
+  %p
+    %button{:id => 'submit_button'}
+      Subscribe
+
+
+:javascript
+  $(function() {
+    $('#submit_button').attr('disabled', true);
+
+    $('#submit_button').click(function() {
+      $.ajax({
+        type: "POST",
+        dataType: "html",
+        url: "info/signingup",
+        data: { email: $('#address').val() },
+        success: function(data, textStatus, request) { $('#fancybox-inner').html("<h3 class=\'center\'>You've been subscribed!</h3>"); }
+      });
+    });
+
+  });

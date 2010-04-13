@@ -14,7 +14,7 @@
            sounds. |
         %p.line
           %i sign up for the
-          %a{:id => 'signup'} email notification list
+          %a{:id => 'signup', :href => 'info/signup'} email notification list
         %p.line
           %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
         %p.line
@@ -28,36 +28,45 @@
           %br
           %strong theband [at] gostaberling DOT com
     .sidebar
-      %img#band{:src => '/images/photo-band-info.png'}
-  
+      %a#band{:href => '/images/photo-band-info-big.png'}
+        %img{:src => '/images/photo-band-info.png'}
+
 #footer
   #portraits
     - %w(damon andre david greg).each do |dude|
       .portrait
-        %a{:id => dude, :href => '#'}
+        %a{:id => dude, :href => "info/#{dude}"}
           %img{:class => 'portrait', :src => "/images/portrait-#{dude}-small-new.png"}
         %p.caption
           %a{:href => '#'}= (dude != 'andre' ? dude : 'andré')
 
 :javascript
   $(function() {
-    var target = "?height=500&amp;width=450&amp;inlineId=popup";
-    var dudes = ['damon', 'david', 'andre', 'greg'] ;
-    for (var i=0, il=dudes.length; i<il; i++) {
-      $(".portrait a#" + dudes[i]).addClass("thickbox").attr("href", "info/" + dudes[i] + target);
-    }
 
-    var target_signup = "?height=100&amp;width=300&amp;inlineId=popup";
-    $("a#signup").addClass("thickbox").attr("href", "info/signup" + target_signup);
+    $("a#band").fancybox();
 
-    tb_init('a.thickbox');
+    $(".portrait > a").fancybox();
+
+
+    //var target = "?height=500&amp;width=450&amp;inlineId=popup";
+    //var dudes = ['damon', 'david', 'andre', 'greg'] ;
+    //for (var i=0, il=dudes.length; i<il; i++) {
+    //  $(".portrait a#" + dudes[i]).addClass("thickbox").attr("href", "info/" + dudes[i] + target);
+    //}
+
+    $("a#signup").fancybox({autoDimensions: false, width: 250, height: 100, ajax: {dataType: "html"}});
+
+    //var target_signup = "?height=100&amp;width=300&amp;inlineId=popup";
+    //$("a#signup").addClass("thickbox").attr("href", "info/signup" + target_signup);
+
+    //tb_init('a.thickbox');
   
     // popup preparation
-    $('#submit_button').livequery(function() {
-      $(this).attr('disabled', true);
-    });
+    //$('#submit_button').live("click", function() {
+    //  $(this).attr('disabled', true);
+    //});
 
-    $('#address').livequery(function() {
+    $('#address').live("click", function() {
       $(this).focus();
       $(this).bind('keypress',function(event) {
         if (/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test($(this).attr('value'))) {
