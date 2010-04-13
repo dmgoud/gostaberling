@@ -51,17 +51,19 @@
 
     $(".portrait > a").fancybox();
 
-    $("a#signup").fancybox({autoDimensions: false, width: 250, height: 100, ajax: {dataType: "html"}});
+    $("a#signup").fancybox({autoDimensions: false, width: 250, height: 100, ajax: {dataType: "html"}, onComplete: function() { setupAddress(); }});
 
-    $('#address').live("click", function() {
-      $(this).focus();
-      $(this).bind('keypress',function(event) {
+    setupAddress = function() {
+      $('#address').focus();
+      $('#address').bind('keypress',function(event) {
         if (/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test($(this).attr('value'))) {
           $('#submit_button').attr('disabled', false);
         } else {
           $('#submit_button').attr('disabled', true);
         }
       });
-    });
+    }
+
+
 
   });
