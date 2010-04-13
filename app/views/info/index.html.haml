@@ -32,39 +32,22 @@
         %img{:src => '/images/photo-band-info.png'}
 
 #footer
-  #portraits
+  %ul#portraits
     - %w(damon andre david greg).each do |dude|
-      .portrait
+      %li.portrait
         %a{:id => dude, :href => "info/#{dude}"}
           %img{:class => 'portrait', :src => "/images/portrait-#{dude}-small-new.png"}
-        %p.caption
-          %a{:href => '#'}= (dude != 'andre' ? dude : 'andré')
 
 :javascript
   $(function() {
+
+    $(".portrait img").bubbleup({scale: 150});
 
     $("a#band").fancybox();
 
     $(".portrait > a").fancybox();
 
-
-    //var target = "?height=500&amp;width=450&amp;inlineId=popup";
-    //var dudes = ['damon', 'david', 'andre', 'greg'] ;
-    //for (var i=0, il=dudes.length; i<il; i++) {
-    //  $(".portrait a#" + dudes[i]).addClass("thickbox").attr("href", "info/" + dudes[i] + target);
-    //}
-
     $("a#signup").fancybox({autoDimensions: false, width: 250, height: 100, ajax: {dataType: "html"}});
-
-    //var target_signup = "?height=100&amp;width=300&amp;inlineId=popup";
-    //$("a#signup").addClass("thickbox").attr("href", "info/signup" + target_signup);
-
-    //tb_init('a.thickbox');
-  
-    // popup preparation
-    //$('#submit_button').live("click", function() {
-    //  $(this).attr('disabled', true);
-    //});
 
     $('#address').live("click", function() {
       $(this).focus();
