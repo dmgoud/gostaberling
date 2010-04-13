@@ -32,11 +32,15 @@
         %img{:src => '/images/photo-band-info.png'}
 
 #footer
-  %ul#portraits
-    - %w(damon andre david greg).each do |dude|
-      %li.portrait
-        %a{:id => dude, :href => "info/#{dude}"}
-          %img{:class => 'portrait', :src => "/images/portrait-#{dude}-small-new.png"}
+  #photos
+    %ul#portraits
+      - %w(damon andre david greg).each do |dude|
+        %li.portrait
+          %a{:id => dude, :href => "info/#{dude}"}
+            %img{:class => 'portrait', :src => "/images/portrait-#{dude}-small-new.png"}
+          %p.caption
+            %a{:href => '#'}= (dude != 'andre' ? dude : 'andré')
+
 
 :javascript
   $(function() {
