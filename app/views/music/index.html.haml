@@ -45,15 +45,15 @@
               right here.
               %ul.eptracks
                 %li
-                  %a{:id => 'ziegfeld', :href => '#'} Ziegfeld Girl
+                  %a{:id => 'ziegfeld', :href => 'music/ziegfeld'} Ziegfeld Girl
                 %li
-                  %a{:id => 'garden', :href => '#'} The Garden of Allah
+                  %a{:id => 'garden', :href => 'music/garden'} The Garden of Allah
                 %li
-                  %a{:id => 'rebecca', :href => '#'} Rebecca
+                  %a{:id => 'rebecca', :href => 'music/rebecca'} Rebecca
                 %li
-                  %a{:id => 'these_days', :href => '#'} These Days
+                  %a{:id => 'these_days', :href => 'music/these_days'} These Days
                 %li
-                  %a{:id => 'berlin', :href => '#'} Berlin
+                  %a{:id => 'berlin', :href => 'music/berlin'} Berlin
           .sidebar
             %img#ep{:src => '/images/gosta_sweetheart_sm.gif'}
         %li
@@ -79,11 +79,9 @@
 
 :javascript
   $(function() {
-    var target = "?height=700&amp;width=400&amp;inlineId=popup"
-    $.each($("ul.eptracks a"), function(index, tune) {
-      $(tune).addClass("thickbox").attr("href", "music/" + $(tune).attr('id') + target);
-    });
-    tb_init('a.thickbox');
+
+    $(".eptracks a").fancybox({autoDimensions: false, width: 550, height: 800});
+
     oneBit = new OneBit('/javascripts/1bit.swf');
     oneBit.ready(function() {
       oneBit.specify('color', '#FFFFFF');

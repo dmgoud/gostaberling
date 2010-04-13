@@ -57,23 +57,3 @@ p#submit {
   margin-top: -.3em;
 }
 
-
-#TB_closeAjaxWindow {
-  float: right;
-  margin-bottom: 1px;
-  padding: 7px 10px 5px 0;
-  text-align: right;
-}
-
-#TB_ajaxContent, #TB_window {
-  background: white;
-  padding: 10px 15px 0 15px;
-}
-
-#TB_ajaxContent p {
-  margin: 0;
-}
-
-#TB_window a:link {
-  color: gray;
-}
