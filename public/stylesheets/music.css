@@ -1,7 +1,11 @@
-h4 {
+h4, p.centered {
   display: block;
   margin: 0 auto;
   text-align: center;
+}
+
+p.centered {
+  font-size: 1.4em;
 }
 
 img#ep {
