@@ -16,7 +16,7 @@
       $.ajax({
         type: "POST",
         dataType: "html",
-        url: "info/signingup",
+        url: "#{url_for('signingup')}",
         data: { email: $('#address').val() },
         success: function(data, textStatus, request) { $('#fancybox-inner').html("<h3 class=\'center\'>You've been subscribed!</h3>"); }
       });

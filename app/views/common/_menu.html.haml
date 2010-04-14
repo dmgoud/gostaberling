@@ -6,7 +6,7 @@
   - %w(music info pics shop).each do |i|
     - unless current_page?(:controller => i)
       %span{:id => i}
-        %a{:href => ("/#{i}")}
+        %a{:href => (url_for(:controller => i))}
           %img{:class => 'unselected', :src => "/images/navigation/nav-#{i}-black.png"}
     - else
       %span{:id => i}

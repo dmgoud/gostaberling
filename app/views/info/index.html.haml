@@ -7,7 +7,7 @@
 
     %p.line
       %i sign up for the
-      %a{:id => 'signup', :href => 'info/signup'} email notification list
+      %a{:id => 'signup', :href => url_for('signup')} email notification list
     %p.line
       %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
     %p.line
@@ -29,7 +29,7 @@
     %ul#portraits
       - %w(damon andre david greg).each do |dude|
         %li.portrait
-          %a{:id => dude, :href => "info/#{dude}"}
+          %a{:id => dude, :href => url_for(dude)}
             %img{:src => "/images/band/members/portrait-#{dude}-small-new.png"}
           %p.caption
             %a{:href => '#'}= (dude != 'andre' ? dude : 'andré')
