@@ -8,10 +8,6 @@ embed.tune {
   height: 3em;
 }
 
-body.popup {
-  background: #blue url() no-repeat;
-}
-
 h3.heading {
   color: black;
 }
@@ -29,8 +25,7 @@ hr.separator {
 
 img.center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   height: 450px;
   width: 450px;
 }
