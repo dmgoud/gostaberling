@@ -46,7 +46,7 @@ p.member a {
 img.spinner {
   margin: 20px auto 0;
   display: block;
-  background: no-repeat url(/images/ajax-loader.gif);
+  background: no-repeat url(/images/common/ajax-loader.gif);
 }
 
 p#address {

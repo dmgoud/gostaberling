@@ -12,7 +12,7 @@ body {
   min-width: 550px;      /* 2x LC width + RC width */
   font-family: Arial, Verdana, sans-serif;
   font-size: 12px;
-  background: transparent url(/images/background2.png) no-repeat fixed top;
+  background: transparent url(/images/common/background2.png) no-repeat fixed top;
 }
 
 #page {
