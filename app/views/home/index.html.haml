@@ -3,8 +3,8 @@
 
 #container
   .sidebar
-    %a{:href => '/'}
-      %img#bed{:src => '/images/bed1.png'}
+    %a.mascot{:href => '/'}
+      %img{:src => '/images/bed1.png'}
   .article
     .content
       %h4 news:
@@ -54,4 +54,5 @@
     $("a#flyer, a#show").fancybox();
   });
 
+  $(".mascot img").bubbleup({scale: 175});
 

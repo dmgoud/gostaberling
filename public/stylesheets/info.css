@@ -2,31 +2,6 @@
   width: 50%;
 }
 
-/*#portraits {*/
-  /*overflow: hidden;*/
-  /*width: 77%;*/
-  /*margin: 0 auto;*/
-  /*padding-top: 5em;*/
-/*}*/
-
-/*.portrait {*/
-  /*float: left;*/
-/*}*/
-
-/*.portrait img.portrait {*/
-  /*width: 10em;*/
-  /*margin: 0 2.2em;*/
-/*}*/
-
-/*.portrait a {*/
-  /*display: block;*/
-/*}*/
-  /**/
-/*p.caption {*/
-  /*font-size: 1.2em;*/
-  /*text-align: center;*/
-/*}*/
-
 #submit_button {
   display: block;
   margin: 0 auto;
@@ -38,45 +13,34 @@
   margin: 0 auto;
 }
 
-div#photos {
-margin: 50px auto;
-text-align: center;
+.band-photos {
+  margin: 50px auto;
+  text-align: center;
 }
 
-div#photos ul#portraits {
+.band-photos ul#portraits {
   display: inline-block;
-  /*list-style-image: none;*/
-  /*list-style-position: outside;*/
-  /*list-style-type: none;*/
-  /*margin: 5px 0;*/
 }
 
-div#photos ul#portraits li {
-  /*border: 1px solid red;*/
+.band-photos ul#portraits li {
   float: left;
   height: 168px;
-  /*margin-left: 15px;*/
   margin-right: 35px;
-  /*padding: 0;*/
   position: relative;
   width: 97px;
   overflow: visible;
 }
 
-div#photos ul#portraits li a {
-  /*position: absolute;*/
+.band-photos ul#portraits li a {
 }
 
-div#photos ul#portraits li img {
-  /*border: medium none;*/
+.band-photos ul#portraits li img {
   left: 0;
-  /*margin: 0 8px 0 0;*/
   overflow: hidden;
-  /*padding: 0;*/
   position: absolute;
 }
 
-div#photos ul#portraits p.caption {
+.band-photos ul#portraits p.caption {
   position: absolute;
   bottom: 0;
   left: 30%;
