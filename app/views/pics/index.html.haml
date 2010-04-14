@@ -1,13 +1,4 @@
-#header
-  = render :partial => 'common/menu'
-
-#container
-  .sidebar
-    %a{:href => '/'}
-      %img#bed{:src => '/images/bed1.png'}
-
-  .article
-
-#footer
+- content_for :footer do
   %img.peel{:src => '/images/peel-slowly.png'}
   = render :partial => 'gallery'
+  

@@ -1,92 +1,84 @@
-#header
-  = render :partial => 'common/menu'
+.content
+  %ul
+    %li
+      .article
+      .sidebar
+        %h4
+          = link_to 'buy the eps', 'shop', :id => 'buy_the_ep'
 
-#container
-  .sidebar
-    %a{:href => '/'}
-      %img#bed{:src => '/images/bed1.png'}
-  .article
-    .content
-      %ul
-        %li
-          .article
-          .sidebar
-            %h4
-              = link_to 'buy the eps', 'shop', :id => 'buy_the_ep'
-            
-        %li
-          .article
-            %h4
-              Want a free song from
-              %i< Travel
-              ?
+    %li
+      .article
+        %h4
+          Want a free song from
+          %i< Travel
+          ?
+        %p.centered
+          Check out
+        %p.line
+        %p.line
+          %a{:href => 'http://gostab.freeshell.org/GostaBerling_Across_the_Lake.mp3'} Across the Lake (mp3)
+          (right click to save)
+        %p.centered
+          You can stream the entire |
+          EP for free at
+        %p.line
+        %p.centered
+          %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
+        %p.line
+        %p.centered
+          or at
+        %p.line
+        %p.centered
+          %a{:href => 'http://www.facebook.com/gostaberling'} facebook.com/gostaberling
+      .sidebar
+        %img.ep{:src => '/images/travel_front.png'}
+    %li
+      .article
+        %h4
+          Listen to our first EP
+          %i Everybody's Sweetheart
+          right here.
+        %p.line
+        %ul.eptracks
+          %li
             %p.centered
-              Check out
-            %p.line
-            %p.line
-              %a{:href => 'http://gostab.freeshell.org/GostaBerling_Across_the_Lake.mp3'} Across the Lake (mp3)
-              (right click to save)
+              %a{:id => 'ziegfeld', :href => 'music/ziegfeld'} Ziegfeld Girl
+          %li
             %p.centered
-              You can stream the entire |
-              EP for free at
-            %p.line
+              %a{:id => 'garden', :href => 'music/garden'} The Garden of Allah
+          %li
             %p.centered
-              %a{:href => 'http://www.myspace.com/gardenofallah'} myspace.com/gardenofallah
-            %p.line
+              %a{:id => 'rebecca', :href => 'music/rebecca'} Rebecca
+          %li
             %p.centered
-              or at
-            %p.line
+              %a{:id => 'these_days', :href => 'music/these_days'} These Days
+          %li
             %p.centered
-              %a{:href => 'http://www.facebook.com/gostaberling'} facebook.com/gostaberling
-          .sidebar
-            %img.ep{:src => '/images/travel_front.png'}
-        %li
-          .article
-            %h4
-              Listen to our first EP
-              %i Everybody's Sweetheart
-              right here.
-            %p.line
-            %ul.eptracks
-              %li
-                %p.centered
-                  %a{:id => 'ziegfeld', :href => 'music/ziegfeld'} Ziegfeld Girl
-              %li
-                %p.centered
-                  %a{:id => 'garden', :href => 'music/garden'} The Garden of Allah
-              %li
-                %p.centered
-                  %a{:id => 'rebecca', :href => 'music/rebecca'} Rebecca
-              %li
-                %p.centered
-                  %a{:id => 'these_days', :href => 'music/these_days'} These Days
-              %li
-                %p.centered
-                  %a{:id => 'berlin', :href => 'music/berlin'} Berlin
-          .sidebar
-            %img.ep{:src => '/images/gosta_sweetheart_sm.gif'}
-        %li
-          .article
-            %h4
-              Wanna hear some early demos?
-            %p.line
-            %ul.demos
-              %li
-                %p.centered
-                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/lili%20marlene%2020070520.mp3'} Lili Marlene (2007)
-              %li
-                %p.centered
-                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/baby%20jane.mp3'} Baby Jane (2006)
-              %li
-                %p.centered
-                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/so%20lonely.mp3'} So Lonely (2005)
-              %li
-                %p.centered
-                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/diplomacy.mp3'} Diplomacy (2005)
-              %li
-                %p.centered
-                  %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/little%20garbo%20demo.mp3'} Little Garbo (2005)
-          .sidebar
+              %a{:id => 'berlin', :href => 'music/berlin'} Berlin
+      .sidebar
+        %img.ep{:src => '/images/gosta_sweetheart_sm.gif'}
+    %li
+      .article
+        %h4
+          Wanna hear some early demos?
+        %p.line
+        %ul.demos
+          %li
+            %p.centered
+              %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/lili%20marlene%2020070520.mp3'} Lili Marlene (2007)
+          %li
+            %p.centered
+              %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/baby%20jane.mp3'} Baby Jane (2006)
+          %li
+            %p.centered
+              %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/so%20lonely.mp3'} So Lonely (2005)
+          %li
+            %p.centered
+              %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/diplomacy.mp3'} Diplomacy (2005)
+          %li
+            %p.centered
+              %a{:href => 'http://s3.amazonaws.com/gostaberling/songs/little%20garbo%20demo.mp3'} Little Garbo (2005)
+      .sidebar
 
 
 #footer

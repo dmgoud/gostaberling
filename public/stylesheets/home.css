@@ -12,17 +12,3 @@ a#show {
   margin: 2em auto 0;
 }
 
-.mascot {
-  display: block;
-  position: relative;
-  overflow: visible;
-  margin: 20px auto 0;
-  height: 142px;
-  width: 132px;
-}
-
-.mascot img {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
