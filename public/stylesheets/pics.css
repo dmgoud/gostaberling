@@ -3,16 +3,7 @@ img.peel {
   margin: 0 auto;
 }
 
-#photos .panel img {
-  width: 640px;
-  height: 480px;
-}
-
-.filmstrip img {
-  height: 100px;
-  width: 100px;
-}
-
-.photos .desc {
+#gallery .desc {
+  font-size: 18px;
   font-style: italic;
 }
