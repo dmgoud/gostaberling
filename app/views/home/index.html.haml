@@ -43,12 +43,15 @@
       %a#flyer{:href => '/images/gb_couch1_kimos_022510a_big.jpg'}
         %img{:src => '/images/gb_couch1_kimos_022510a.jpg'}
 
+      %a#show{:href => '/images/el-rio-bookmark-big.png'}
+        %img{:src => '/images/el-rio-bookmark.png'}
+
 #footer
   -
 
 :javascript
   $(function() {
-    $("a#flyer").fancybox();
+    $("a#flyer, a#show").fancybox();
   });
 
 
