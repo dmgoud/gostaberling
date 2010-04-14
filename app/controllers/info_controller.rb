@@ -25,6 +25,7 @@ class InfoController < ApplicationController
   
   def signingup
     Notifier.deliver_notification(params[:email])
+    head :ok
   end
   
 end
