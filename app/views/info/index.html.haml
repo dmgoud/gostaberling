@@ -24,7 +24,7 @@
   %a#band{:href => '/images/band/photo-band-info-big.png'}
     %img{:src => '/images/band/photo-band-info.png'}
 
-#footer
+- content_for :footer do
   .band-photos
     %ul#portraits
       - %w(damon andre david greg).each do |dude|
