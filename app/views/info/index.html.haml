@@ -21,8 +21,8 @@
       %br
       %strong theband [at] gostaberling DOT com
 .sidebar
-  %a#band{:href => '/images/photo-band-info-big.png'}
-    %img{:src => '/images/photo-band-info.png'}
+  %a#band{:href => '/images/band/photo-band-info-big.png'}
+    %img{:src => '/images/band/photo-band-info.png'}
 
 #footer
   .band-photos
@@ -30,7 +30,7 @@
       - %w(damon andre david greg).each do |dude|
         %li.portrait
           %a{:id => dude, :href => "info/#{dude}"}
-            %img{:class => 'portrait', :src => "/images/portrait-#{dude}-small-new.png"}
+            %img{:class => 'portrait', :src => "/images/band/members/portrait-#{dude}-small-new.png"}
           %p.caption
             %a{:href => '#'}= (dude != 'andre' ? dude : 'andré')
 

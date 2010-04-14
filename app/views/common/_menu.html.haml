@@ -1,14 +1,14 @@
 .logo
   %a{:href => '/'}
-    %img{:src => '/images/logo.png'}
+    %img{:src => '/images/common/logo.png'}
 
 .menu
   - %w(music info pics shop).each do |i|
     - unless current_page?(:controller => i)
       %span{:id => i}
         %a{:href => ("/#{i}")}
-          %img{:class => 'unselected', :src => "/images/nav-#{i}-black.png"}
+          %img{:class => 'unselected', :src => "/images/navigation/nav-#{i}-black.png"}
     - else
       %span{:id => i}
-        %img{:class => 'selected', :src => "/images/nav-#{i}-brown.png"}
+        %img{:class => 'selected', :src => "/images/navigation/nav-#{i}-brown.png"}
     
