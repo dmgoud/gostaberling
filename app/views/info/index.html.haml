@@ -30,7 +30,7 @@
       - %w(damon andre david greg).each do |dude|
         %li.portrait
           %a{:id => dude, :href => "info/#{dude}"}
-            %img{:class => 'portrait', :src => "/images/band/members/portrait-#{dude}-small-new.png"}
+            %img{:src => "/images/band/members/portrait-#{dude}-small-new.png"}
           %p.caption
             %a{:href => '#'}= (dude != 'andre' ? dude : 'andré')
 
@@ -43,6 +43,10 @@
     $("a#band").fancybox();
 
     $(".portrait > a").fancybox();
+
+    $(".portrait img").click(function() {
+      $(this).mouseout();
+    });
 
     $("a#signup").fancybox({autoDimensions: false, width: 250, height: 100, ajax: {dataType: "html"}, onComplete: function() { setupAddress(); }});
 
