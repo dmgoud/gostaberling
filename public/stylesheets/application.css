@@ -153,17 +153,20 @@ ul > li > .sidebar {
   float: right;
 }
 
+#container > .sidebar {
+  position: relative;
+}
+
 #container > .sidebar > .mascot {
   display: block;
-  position: relative;
-  overflow: visible;
-  margin: 20px auto 0;
-  height: 142px;
-  width: 132px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
 }
 
 #container > .sidebar > .mascot img {
   position: absolute;
+  width: 132px;
   top: 0;
   left: 0;
 }
