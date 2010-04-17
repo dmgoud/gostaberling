@@ -48,18 +48,18 @@
 /*margin: 0;*/
 /*}*/
 
-div#demo {
+.band-photos {
   margin: 0 auto;
   text-align: center;
 }
 
-div#demo ul#menu {
+.band-photos ul#portraits {
   margin: 5px 0;
   list-style: none;
   display: inline-block;
 }
 
-div#demo ul#menu li {
+.band-photos ul#portraits li {
   padding: 25px;
   float: left;
   position: relative;
@@ -69,13 +69,13 @@ div#demo ul#menu li {
   height: 168px;
 }
 
-div#demo ul#menu li a {
+.band-photos ul#portraits li a {
   position: absolute;
   top: 50px;
   left: 24px;
 }
 
-div#demo ul#menu li img {
+.band-photos ul#portraits li img {
   position: absolute;
   width: 97px;
   top: 0;
@@ -86,7 +86,7 @@ div#demo ul#menu li img {
   overflow: hidden;
 }
 
-div#demo ul#menu p.caption {
+.band-photos ul#portraits p.caption {
   position: absolute;
   bottom: 68px;
   left: 20%;
