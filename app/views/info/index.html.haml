@@ -32,7 +32,7 @@
           %a{:id => dude, :href => url_for(dude)}
             %img{:src => "/images/band/members/portrait-#{dude}-small-new.png"}
           %p.caption
-            %a{:href => '#'}= (dude != 'andre' ? dude : 'andré')
+            %a{:href => url_for(dude)}= (dude != 'andre' ? dude : 'andré')
 
 -#<div id="demo">
 -#  <ul id="menu">
@@ -55,6 +55,7 @@
     $("a#band").fancybox();
 
     $(".portrait > a").fancybox();
+    $(".portrait .caption > a").fancybox();
 
     $(".portrait img").click(function() {
       $(this).mouseout();
