@@ -13,34 +13,80 @@
   margin: 0 auto;
 }
 
-.band-photos {
-  margin: 50px auto;
+/*.band-photos {*/
+/*margin: 50px auto;*/
+/*text-align: center;*/
+/*}*/
+
+/*.band-photos ul#portraits {*/
+/*display: inline-block;*/
+/*}*/
+
+/*.band-photos ul#portraits li {*/
+/*float: left;*/
+/*height: 168px;*/
+/*margin-right: 35px;*/
+/*position: relative;*/
+/*width: 97px;*/
+/*overflow: visible;*/
+/*}*/
+
+/*.band-photos ul#portraits li a {*/
+/*position: absolute;*/
+/*}*/
+
+/*.band-photos ul#portraits li img {*/
+/*left: 0;*/
+/*overflow: hidden;*/
+/*position: absolute;*/
+/*}*/
+
+/*.band-photos ul#portraits p.caption {*/
+/*position: absolute;*/
+/*bottom: 0;*/
+/*left: 30%;*/
+/*margin: 0;*/
+/*}*/
+
+div#demo {
+  margin: 0 auto;
   text-align: center;
 }
 
-.band-photos ul#portraits {
+div#demo ul#menu {
+  margin: 5px 0;
+  list-style: none;
   display: inline-block;
 }
 
-.band-photos ul#portraits li {
+div#demo ul#menu li {
+  padding: 25px;
   float: left;
-  height: 168px;
-  margin-right: 35px;
   position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
   width: 97px;
-  overflow: visible;
+  height: 168px;
 }
 
-.band-photos ul#portraits li a {
-}
-
-.band-photos ul#portraits li img {
-  left: 0;
-  overflow: hidden;
+div#demo ul#menu li a {
   position: absolute;
+  top: 50px;
+  left: 24px;
 }
 
-.band-photos ul#portraits p.caption {
+div#demo ul#menu li img {
+  position: absolute;
+  width: 97px;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0 8px 0 0;
+  border: none;
+  overflow: hidden;
+}
+
+div#demo ul#menu p.caption {
   position: absolute;
   bottom: 0;
   left: 30%;
