@@ -41,8 +41,8 @@
 
     $("a#band").fancybox();
 
-    $(".portrait > a").fancybox();
-    $(".portrait .caption > a").fancybox();
+    $(".portrait > a").fancybox({scrolling: 'no'});
+    $(".portrait .caption > a").fancybox({scrolling: 'no'});
 
     $(".portrait img").click(function() {
       $(this).mouseout();
