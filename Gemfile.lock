@@ -1,0 +1,49 @@
+--- 
+dependencies: 
+  rails: 
+    group: 
+    - :default
+    version: = 2.3.5
+  mysql: 
+    group: 
+    - :default
+    version: = 2.8.1
+  rake: 
+    group: 
+    - :default
+    version: = 0.8.7
+  haml: 
+    group: 
+    - :default
+    version: = 2.2.17
+specs: 
+- rake: 
+    version: 0.8.7
+- activesupport: 
+    version: 2.3.5
+- rack: 
+    version: 1.0.1
+- actionpack: 
+    version: 2.3.5
+- actionmailer: 
+    version: 2.3.5
+- activerecord: 
+    version: 2.3.5
+- activeresource: 
+    version: 2.3.5
+- haml: 
+    version: 2.2.17
+- mysql: 
+    version: 2.8.1
+- rails: 
+    version: 2.3.5
+hash: d8f7070e524be51ad22453fab735e9e938323d2c
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
+- Rubygems: 
+    uri: http://gems.github.com
+- Rubygems: 
+    uri: http://gems.rubyforge.org
+- Rubygems: 
+    uri: http://gems.engineyard.com

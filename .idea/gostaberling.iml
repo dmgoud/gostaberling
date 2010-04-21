@@ -54,6 +54,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rack (v1.0.1, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/rack-1.0.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] mysql (v2.8.1, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/mysql-2.8.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v2.3.5, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/actionmailer-2.3.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v2.3.5, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/activerecord-2.3.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/rake-0.8.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v2.3.5, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/actionpack-2.3.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v2.3.5, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/rails-2.3.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v2.3.5, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/activesupport-2.3.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v2.3.5, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/activeresource-2.3.5)" level="application" />
   </component>
 </module>
 
