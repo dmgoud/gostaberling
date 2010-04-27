@@ -2,42 +2,19 @@ set :stages, %w(demo production)
 set :default_stage, 'demo'
 
 require 'capistrano/ext/multistage'
-#require 'mongrel_cluster/recipes'
 
-#namespace :deploy do
-#  task :geminstaller, :roles => :app do
-#    sudo "geminstaller -c #{current_release}/config/geminstaller.yml"
-#  end
-#end
-
-namespace :bundler do
-  task :install do
-    run("gem install bundler -v0.8.1 --source=http://gemcutter.org")
-  end
-
-  task :symlink_vendor do
-    shared_gems = File.join(shared_path, 'vendor/bundler_gems/ruby/1.8')
-    release_gems = "#{release_path}/vendor/bundler_gems/ruby/1.8"
-    %w(cache gems specifications).each do |sub_dir|
-      shared_sub_dir = File.join(shared_gems, sub_dir)
-      run("mkdir -p #{shared_sub_dir} && mkdir -p #{release_gems} && ln -s #{shared_sub_dir} #{release_gems}/#{sub_dir}")
-    end
-  end
-
-  task :bundle_new_release do
-    bundler.symlink_vendor
-    run("cd #{release_path} && gem bundle --only #{rails_env}")
+namespace :deploy do
+  desc "run 'bundle install' to install Bundler's packaged gems for the current deploy"
+  task :bundle_install, :roles => :app do
+    run "cd #{release_path} && bundle install"
   end
 end
-
-# hook into capistrano's deploy task
-after 'deploy:update_code', 'bundler:bundle_new_release'
 
 # load custom rake tasks after the default tasks
 # load_paths << 'config/deploy'
 # load 'common'
 
-#after "deploy:update_code", "deploy:geminstaller"
+after "deploy:update_code", "deploy:bundle_install"
 before "deploy:migrate", "deploy:web:disable"
 after "deploy:migrate", "deploy:web:enable"
 after "deploy:migrate", "deploy:cleanup"
