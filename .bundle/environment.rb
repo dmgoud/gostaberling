@@ -175,19 +175,19 @@ module Bundler
   ENV_LOADED   = true
   LOCKED_BY    = '0.9.24'
   FINGERPRINT  = "d8f7070e524be51ad22453fab735e9e938323d2c"
-  HOME         = '/Users/gregdubrow/.bundle/ruby/1.8/bundler'
+  HOME         = '/Users/david/.bundle/ruby/1.8/bundler'
   AUTOREQUIRES = {:default=>[["rake", false], ["haml", false], ["mysql", false], ["rails", false]]}
   SPECS        = [
         {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/rake-0.8.7/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/rake-0.8.7.gemspec", :name=>"rake"},
-        {:load_paths=>["/Users/gregdubrow/.bundle/ruby/1.8/gems/activesupport-2.3.5/lib"], :loaded_from=>"/Users/gregdubrow/.bundle/ruby/1.8/specifications/activesupport-2.3.5.gemspec", :name=>"activesupport"},
-        {:load_paths=>["/Users/gregdubrow/.bundle/ruby/1.8/gems/rack-1.0.1/lib"], :loaded_from=>"/Users/gregdubrow/.bundle/ruby/1.8/specifications/rack-1.0.1.gemspec", :name=>"rack"},
-        {:load_paths=>["/Users/gregdubrow/.bundle/ruby/1.8/gems/actionpack-2.3.5/lib"], :loaded_from=>"/Users/gregdubrow/.bundle/ruby/1.8/specifications/actionpack-2.3.5.gemspec", :name=>"actionpack"},
-        {:load_paths=>["/Users/gregdubrow/.bundle/ruby/1.8/gems/actionmailer-2.3.5/lib"], :loaded_from=>"/Users/gregdubrow/.bundle/ruby/1.8/specifications/actionmailer-2.3.5.gemspec", :name=>"actionmailer"},
-        {:load_paths=>["/Users/gregdubrow/.bundle/ruby/1.8/gems/activerecord-2.3.5/lib"], :loaded_from=>"/Users/gregdubrow/.bundle/ruby/1.8/specifications/activerecord-2.3.5.gemspec", :name=>"activerecord"},
-        {:load_paths=>["/Users/gregdubrow/.bundle/ruby/1.8/gems/activeresource-2.3.5/lib"], :loaded_from=>"/Users/gregdubrow/.bundle/ruby/1.8/specifications/activeresource-2.3.5.gemspec", :name=>"activeresource"},
-        {:load_paths=>["/Users/gregdubrow/.bundle/ruby/1.8/gems/haml-2.2.17/lib"], :loaded_from=>"/Users/gregdubrow/.bundle/ruby/1.8/specifications/haml-2.2.17.gemspec", :name=>"haml"},
+        {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/activesupport-2.3.5.gemspec", :name=>"activesupport"},
+        {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/rack-1.0.1.gemspec", :name=>"rack"},
+        {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/actionpack-2.3.5.gemspec", :name=>"actionpack"},
+        {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/actionmailer-2.3.5/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/actionmailer-2.3.5.gemspec", :name=>"actionmailer"},
+        {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/activerecord-2.3.5.gemspec", :name=>"activerecord"},
+        {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/activeresource-2.3.5/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/activeresource-2.3.5.gemspec", :name=>"activeresource"},
+        {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/haml-2.2.17/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/haml-2.2.17.gemspec", :name=>"haml"},
         {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/mysql-2.8.1/lib", "/opt/local/lib/ruby/gems/1.8/gems/mysql-2.8.1/ext"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/mysql-2.8.1.gemspec", :name=>"mysql"},
-        {:load_paths=>["/Users/gregdubrow/.bundle/ruby/1.8/gems/rails-2.3.5/lib"], :loaded_from=>"/Users/gregdubrow/.bundle/ruby/1.8/specifications/rails-2.3.5.gemspec", :name=>"rails"},
+        {:load_paths=>["/opt/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib"], :loaded_from=>"/opt/local/lib/ruby/gems/1.8/specifications/rails-2.3.5.gemspec", :name=>"rails"},
       ].map do |hash|
     if hash[:virtual_spec]
       spec = eval(hash[:virtual_spec], TOPLEVEL_BINDING, "<virtual spec for '#{hash[:name]}'>")
