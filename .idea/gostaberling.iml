@@ -9,98 +9,30 @@
       </configuration>
     </facet>
   </component>
-  <component name="GemRequirementsHolder" version="2">
+  <component name="GemRequirementsHolder" version="3">
     <requirement>
       <requirement>
-        <dependency name="actionmailer" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="actionpack" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="activerecord" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="activeresource" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="activesupport" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="bundler" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="haml" version="2.2.17" bound="EQUAL" git="false" />
+        <dependency name="haml" version="2.2.17" bound="EQUAL" git="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="haml" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="mysql" version="2.8.1" bound="EQUAL" git="false" />
+        <dependency name="mysql" version="2.8.1" bound="EQUAL" git="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="mysql" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-      <source from="config/database.yml" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rack" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rails" version="2.3.5" bound="EQUAL" git="false" />
+        <dependency name="rails" version="2.3.5" bound="EQUAL" git="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
     <requirement>
       <requirement>
-        <dependency name="rails" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
-      <source from="config/boot.rb" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rake" version="0.8.7" bound="EQUAL" git="false" />
+        <dependency name="rake" version="0.8.7" bound="EQUAL" git="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
-    </requirement>
-    <requirement>
-      <requirement>
-        <dependency name="rake" version="0" bound="GREATER_OR_EQUAL" git="false" />
-      </requirement>
-      <source manual="true" />
     </requirement>
   </component>
   <component name="NewModuleRootManager">
@@ -121,6 +53,12 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v2.3.5, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/activeresource-2.3.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] bundler (v0.9.21, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/bundler-0.9.21)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] haml (v2.2.17, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@gostaberling/gems/haml-2.2.17)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] net-ssh (v2.0.22, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@global/gems/net-ssh-2.0.22)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] net-scp (v1.0.2, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@global/gems/net-scp-1.0.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] highline (v1.5.2, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@global/gems/highline-1.5.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] net-sftp (v2.0.4, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@global/gems/net-sftp-2.0.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] net-ssh-gateway (v1.0.1, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@global/gems/net-ssh-gateway-1.0.1)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] capistrano (v2.5.18, /Users/david/.rvm/gems/ruby-1.8.7-tv1_8_7_174@global/gems/capistrano-2.5.18)" level="application" />
   </component>
 </module>
 
