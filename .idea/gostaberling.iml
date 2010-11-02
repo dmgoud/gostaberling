@@ -18,6 +18,12 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="configuration" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="daemons" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source manual="true" />
@@ -39,6 +45,36 @@
         <dependency name="haml" version="3.0.23" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="heroku" version="1.11.0" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="heroku" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="json_pure" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="launchy" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mime-types" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
     </requirement>
     <requirement>
       <requirement>
@@ -69,6 +105,18 @@
         <dependency name="rake" version="0.8.7" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rake" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rest-client" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source manual="true" />
     </requirement>
   </component>
   <component name="NewModuleRootManager">
@@ -110,6 +158,11 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] fastthread (v1.0.7, /Users/david/.rvm/gems/ree-1.8.7-2010.02@gostaberling/gems/fastthread-1.0.7)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] gem_plugin (v0.2.3, /Users/david/.rvm/gems/ree-1.8.7-2010.02@gostaberling/gems/gem_plugin-0.2.3)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mongrel (v1.1.5, /Users/david/.rvm/gems/ree-1.8.7-2010.02@gostaberling/gems/mongrel-1.1.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] configuration (v1.1.0, /Users/david/.rvm/gems/ree-1.8.7-2010.02@gostaberling/gems/configuration-1.1.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] heroku (v1.11.0, /Users/david/.rvm/gems/ree-1.8.7-2010.02@gostaberling/gems/heroku-1.11.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] json_pure (v1.4.6, /Users/david/.rvm/gems/ree-1.8.7-2010.02@gostaberling/gems/json_pure-1.4.6)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] launchy (v0.3.7, /Users/david/.rvm/gems/ree-1.8.7-2010.02@gostaberling/gems/launchy-0.3.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rest-client (v1.6.1, /Users/david/.rvm/gems/ree-1.8.7-2010.02@gostaberling/gems/rest-client-1.6.1)" level="application" />
   </component>
 </module>
 
