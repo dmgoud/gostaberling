@@ -1,22 +1,81 @@
-ActionController::Routing::Routes.draw do |map|
+Gostaberling::Application.routes.draw do
 
-  map.root :controller => 'home', :action => 'index'
-  map.connect 'music', :controller => :music, :action => 'index'
-  map.connect 'info', :controller => :info, :action => 'index'
-  map.connect 'pics', :controller => :pics, :action => 'index'
-  map.connect 'shop', :controller => :shop, :action => 'index'
+  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
 
-  map.connect 'damon', :controller => :info, :action => 'damon'
-  map.connect 'david', :controller => :info, :action => 'david'
-  map.connect 'andre', :controller => :info, :action => 'andre'
-  map.connect 'greg', :controller => :info, :action => 'greg'
-  map.connect 'signup', :controller => :info, :action => 'signup'
+  match '/'          => 'home#index', :as => :root
+  match 'music'      => 'music#index'
+  match 'info'       => 'info#index'
+  match 'pics'       => 'pics#index'
+  match 'shop'       => 'shop#index'
 
-  map.connect 'ziegfeld', :controller => :music, :action => 'ziegfeld'
-  map.connect 'garden', :controller => :music, :action => 'garden'
-  map.connect 'rebecca', :controller => :music, :action => 'rebecca'
-  map.connect 'these_days', :controller => :music, :action => 'these_days'
-  map.connect 'berlin', :controller => :music, :action => 'berlin'
+  match 'damon'      => 'info#damon'
+  match 'david'      => 'info#david'
+  match 'andre'      => 'info#andre'
+  match 'greg'       => 'info#greg'
+  match 'signup'     => 'info#signup'
+  match 'ziegfeld'   => 'music#ziegfeld'
 
-  map.connect 'signingup', :controller => :info, :action => 'signingup'
+  match 'garden'     => 'music#garden'
+  match 'rebecca'    => 'music#rebecca'
+  match 'these_days' => 'music#these_days'
+  match 'berlin'     => 'music#berlin'
+
+  match 'signingup'  => 'info#signingup'
+
+  # The priority is based upon order of creation:
+  # first created -> highest priority.
+
+  # Sample of regular route:
+  #   match 'products/:id' => 'catalog#view'
+  # Keep in mind you can assign values other than :controller and :action
+
+  # Sample of named route:
+  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
+  # This route can be invoked with purchase_url(:id => product.id)
+
+  # Sample resource route (maps HTTP verbs to controller actions automatically):
+  #   resources :products
+
+  # Sample resource route with options:
+  #   resources :products do
+  #     member do
+  #       get 'short'
+  #       post 'toggle'
+  #     end
+  #
+  #     collection do
+  #       get 'sold'
+  #     end
+  #   end
+
+  # Sample resource route with sub-resources:
+  #   resources :products do
+  #     resources :comments, :sales
+  #     resource :seller
+  #   end
+
+  # Sample resource route with more complex sub-resources
+  #   resources :products do
+  #     resources :comments
+  #     resources :sales do
+  #       get 'recent', :on => :collection
+  #     end
+  #   end
+
+  # Sample resource route within a namespace:
+  #   namespace :admin do
+  #     # Directs /admin/products/* to Admin::ProductsController
+  #     # (app/controllers/admin/products_controller.rb)
+  #     resources :products
+  #   end
+
+  # You can have the root of your site routed with "root"
+  # just remember to delete public/index.html.
+  # root :to => "welcome#index"
+
+  # See how all your routes lay out with "rake routes"
+
+  # This is a legacy wild controller route that's not recommended for RESTful applications.
+  # Note: This route will make all actions in every controller accessible via GET requests.
+  # match ':controller(/:action(/:id(.:format)))'
 end

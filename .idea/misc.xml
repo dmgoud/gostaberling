@@ -6,7 +6,10 @@
   <component name="ProjectDetails">
     <option name="projectName" value="gostaberling" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Ruby SDK 1.8.7 [gostaberling] (/Users/david/.rvm/rubies/ruby-1.8.7-tv1_8_7_174/bin/ruby)" project-jdk-type="RUBY_SDK" />
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Ruby SDK 1.8.7-p253 [gostaberling]" project-jdk-type="RUBY_SDK" />
   <component name="SvnBranchConfigurationManager">
     <option name="myVersion" value="124" />
     <option name="mySupportsUserInfoFilter" value="true" />

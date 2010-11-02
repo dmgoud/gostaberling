@@ -1,25 +1,12 @@
-generic: &generic
-  adapter: mysql
-  encoding: utf8
-  username: root
-#  socket: /tmp/mysql.sock
-
 development:
-  database: gosta_dev
-  password: password
-  <<: *generic
+  adapter: postgresql
+  database: gostaberling_dev
+  username: postgres
+  password: postgres
+  host: localhost
 
 test:
-  database: gosta_test
-  password: password
-  <<: *generic
-
-demo:
-  database: gosta_demo
-  password: iron8wine
-  <<: *generic
+  database: gostaberling_test
 
 production:
-  database: gosta_prod
-  password: iron8wine
-  <<: *generic
+  database: gostaberling_production
