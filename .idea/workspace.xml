@@ -2,10 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a226ac9-39ef-4057-9b17-b0886ac30bec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/actionmailer-3.2.9.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/actionpack-3.2.9.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/activemodel-3.2.9.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/activerecord-3.2.9.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/activeresource-3.2.9.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/activesupport-3.2.9.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/arel-3.0.2.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/builder-3.0.4.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/erubis-2.7.0.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/haml-3.1.7.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/hike-1.2.1.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/i18n-0.6.1.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/journey-1.0.4.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/json-1.7.5.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/mail-2.4.4.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/mime-types-1.19.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/multi_json-1.4.0.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/pg-0.14.1.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/polyglot-0.3.3.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/rack-1.4.1.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/rack-cache-1.2.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/rack-ssl-1.3.2.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/rack-test-0.6.2.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/railties-3.2.9.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/rdoc-3.12.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/sprockets-2.2.2.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/thor-0.16.0.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/tilt-1.3.3.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/treetop-1.4.12.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/cache/tzinfo-0.3.35.gem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/abstract-1.0.0.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/actionmailer-3.0.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/actionpack-3.0.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/activemodel-3.0.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/activerecord-3.0.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/activeresource-3.0.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/activesupport-3.0.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/arel-1.0.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/builder-2.1.2.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/cgi_multipart_eof_fix-2.5.0.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/configuration-1.1.0.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/daemons-1.1.0.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/erubis-2.6.6.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/fastthread-1.0.7.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/gem_plugin-0.2.3.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/haml-3.0.23.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/heroku-1.11.0.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/i18n-0.4.2.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/json_pure-1.4.6.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/launchy-0.3.7.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/mail-2.2.9.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/mime-types-1.16.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/mongrel-1.1.5.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/pg-0.9.0.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/polyglot-0.3.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rack-1.2.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rack-mount-0.6.13.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rack-test-0.5.6.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/railties-3.0.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/rest-client-1.6.1.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/thor-0.14.3.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/treetop-1.4.8.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/cache/tzinfo-0.3.23.gem" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/cache/rails-3.0.1.gem" afterPath="$PROJECT_DIR$/vendor/cache/rails-3.2.9.gem" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.rvmrc" afterPath="$PROJECT_DIR$/.rvmrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gostaberling.iml" afterPath="$PROJECT_DIR$/.idea/gostaberling.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/smtp_gmail.rb" afterPath="$PROJECT_DIR$/config/initializers/smtp_gmail.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="gostaberling.iws" />
+    <file path="/Dummy.txt" changelist="3a226ac9-39ef-4057-9b17-b0886ac30bec" time="1355078943079" ignored="false" />
+    <file path="/.rvmrc" changelist="3a226ac9-39ef-4057-9b17-b0886ac30bec" time="1355079738707" ignored="false" />
+    <file path="/Gemfile" changelist="3a226ac9-39ef-4057-9b17-b0886ac30bec" time="1355082522968" ignored="false" />
+    <file path="/smtp_gmail.rb" changelist="3a226ac9-39ef-4057-9b17-b0886ac30bec" time="1355080594203" ignored="false" />
+    <file path="/a.dummy" changelist="3a226ac9-39ef-4057-9b17-b0886ac30bec" time="1355080618523" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="true" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +95,6 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-    <option name="REVERSE_PATCH" value="false" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -24,15 +103,25 @@
     <flatten value="false" />
     <groupTables value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="gostaberling" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1762" selection-end="1800" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.561039">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smtp_gmail.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/smtp_gmail.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -41,34 +130,25 @@
       <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
+            <state line="14" column="22" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <file leaf-file-name="20101102052231_add_sessions_table.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20101102052231_add_sessions_table.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".pairs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.pairs">
+      <file leaf-file-name=".rvmrc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.rvmrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="3" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,10 +163,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="65" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.6123348">
+            <state line="47" column="65" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-7.6666665">
               <folding />
             </state>
           </provider>
@@ -197,16 +277,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
-    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.rvmrc" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/gostaberling.rake" />
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -214,11 +295,14 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/.pairs" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/notifier.rb" />
         <option value="$PROJECT_DIR$/app/controllers/info_controller.rb" />
         <option value="$PROJECT_DIR$/public/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.haml" />
+        <option value="$PROJECT_DIR$/.rvmrc" />
+        <option value="$PROJECT_DIR$/config/initializers/smtp_gmail.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -228,6 +312,11 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1362" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -256,17 +345,12 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="gostaberling" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -321,7 +405,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gostaberling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gostaberling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gostaberling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gostaberling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gostaberling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gostaberling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gostaberling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gostaberling" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,6 +551,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -416,17 +569,17 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="268" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1057" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1061" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1057" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="264" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="281" />
     <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="281" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Rails.Development">
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
@@ -444,9 +597,11 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
@@ -466,10 +621,41 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="false" name="Development" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="gostaberling" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Rails.Development" />
+    </list>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="" />
@@ -495,331 +681,8 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Development" type="RailsRunConfigurationType" factoryName="Rails">
-      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
-      <module name="gostaberling" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e STDOUT.sync=true;STDERR.sync=true;load($0=ARGV.shift)" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Rails.Development" />
-    </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <recycled_changelist date="1265172189799">
-      <option name="PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/Photo_scroller.patch" />
-      <option name="DESCRIPTION" value="Photo scroller" />
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/dark/panel-nav-next.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/panel-nav-next.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/light/pointer.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/pointer.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/gosta_at blakes_120509.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/gosta_at blakes_120509.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/light/panel-nav-next.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/panel-nav-next1.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20080518_2136.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20080518_2136.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/themes/light/panel-nav-next.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/panel-nav-next.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/themes/dark/prev.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/prev.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/facebox/closelabel.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/closelabel.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/themes/light/prev.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/prev1.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/facebox/tl.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/tl.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/light/panel-nav-prev.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/panel-nav-prev.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/facebox/bl.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/bl.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20090816_3702.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20090816_3702.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/20090607_2973.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20090607_2973.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/dark/pointer.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/pointer1.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/light/pointer-down.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/pointer-down.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/themes/light/panel-nav-prev.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/panel-nav-prev.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20080914_2472.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20080914_2472.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/tinyslideshow/scroll-right.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/scroll-right.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/loader.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/loader.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/dark/pointer-down.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/pointer-down1.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/mrsmiths_042408_fullband_1.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/mrsmiths_042408_fullband_1.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/DSC_0647.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/DSC_0647.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20081214_2708.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20081214_2708.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/tinyslideshow/scroll-left.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/scroll-left.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/facebox/br.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/br.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/facebox/loading.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/loading1.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/light/next.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/next.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20081214_2694a.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20081214_2694a.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/dark/next.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/next1.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/themes/dark/panel-nav-next.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/panel-nav-next1.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/DSCN2487.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/DSCN2487.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20080520_2181.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20080520_2181.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20080914_2467.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20080914_2467.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/DSC_0627.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/DSC_0627.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/facebox/tr.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/tr.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/light/prev.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/prev.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/tinyslideshow/link.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/link.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/20090607_2952a.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20090607_2952a.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/20090607_2978a.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20090607_2978a.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20090426_2931.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20090426_2931.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/tinyslideshow/left.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/left.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/mrsmiths_071708_2.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/mrsmiths_071708_2.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20081214_2703.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20081214_2703.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20080518_2135.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20080518_2135.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20090215_2872.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20090215_2872.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/DSC_0631.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/DSC_0631.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/themes/light/next.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/next.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20080914_2471.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20080914_2471.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/candids/20080518_2143.JPG" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20080518_2143.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/themes/dark/panel-nav-prev.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/panel-nav-prev1.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-2.0/themes/dark/next.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/next1.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/20090607_2979a.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/20090607_2979a.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/dark/panel-nav-prev.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/panel-nav-prev1.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/live/DSCN2486.jpg" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/DSCN2486.jpg" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/images/tinyslideshow/right.gif" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/right.gif" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/jquery-galleryview-1.1/themes/dark/prev.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/prev1.png" />
-      </binary>
-      <binary>
-        <option name="BEFORE_PATH" />
-        <option name="AFTER_PATH" value="public/javascripts/facebox/b.png" />
-        <option name="SHELVED_PATH" value="$USER_HOME$/Library/Preferences/RubyMine20/shelf/b.png" />
-      </binary>
-    </recycled_changelist>
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -848,27 +711,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1916" height="1178" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1362" height="746" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933578" sideWeight="0.0" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32780847" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3266564" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32819724" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3340471" sideWeight="0.6721915" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33966565" sideWeight="0.67180276" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933578" sideWeight="0.0" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -889,12 +758,20 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="true" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="5" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="And the large flyer image" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -938,21 +815,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.bubbleup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pics/_gallery.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/info/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="14" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" />
@@ -970,17 +832,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1762" selection-end="1800" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" />
+        <state line="50" column="0" selection-start="1762" selection-end="1800" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" />
+        <state line="6" column="30" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.pairs">
@@ -988,24 +849,18 @@
         <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="3" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/info_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" />
+        <state line="22" column="29" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="17" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/notifier.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" />
+        <state line="182" column="17" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
@@ -1017,7 +872,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="65" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.6123348">
+        <state line="47" column="65" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-7.6666665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20101102052231_add_sessions_table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rvmrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/smtp_gmail.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/notifier.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.561039">
           <folding />
         </state>
       </provider>

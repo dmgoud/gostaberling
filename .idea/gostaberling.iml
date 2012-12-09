@@ -55,42 +55,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="abstract (v1.0.0, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="daemons (v1.1.0, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.16, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="gem_plugin (v0.2.3, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails (v3.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fastthread (v1.0.7, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.6.6, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="cgi_multipart_eof_fix (v2.5.0, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.6.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mongrel (v1.1.5, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="heroku (v1.11.0, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.4.2, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.23, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="railties (v3.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.8, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v3.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v1.2.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mail (v2.2.9, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pg (v0.9.0, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-mount (v0.6.13, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.5.6, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v2.1.2, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activeresource (v3.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thor (v0.14.3, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="haml (v3.0.23, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.0.3, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="launchy (v0.3.7, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v0.8.7, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionpack (v3.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="configuration (v1.1.0, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json_pure (v1.4.6, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="arel (v1.0.1, Ruby SDK 1.8.7-p253 [gostaberling]) [gem]" level="application" />
+  </component>
+  <component name="RModuleSettingsStorage">
+    <LOAD_PATH number="0" />
+    <I18N_FOLDERS number="1" string0="$MODULE_DIR$/config/locales" />
   </component>
 </module>
 
